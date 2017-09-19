@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageViewDocumentPart"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="todo_strings_info"
+        android:src="@drawable/trumpet" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <Button
+            android:id="@+id/buttonDeleteDocumentPart"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorButtons"
+            android:text="@string/button_delete_document_page" />
+
+        <Button
+            android:id="@+id/buttonCropDocumentPart"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/colorButtons"
+            android:text="@string/button_crop_document_page" />
+
+    </LinearLayout>
+
+</LinearLayout>

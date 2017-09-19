@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Algemeen -->
+    <string name="application_name">NLHelpU</string>
+    <string name="main_section_header">Onderwerpen</string>
+    <string name="about_header">Over de app</string>
+    <string name="main_activity_info_section">Deze app maakt het je makkelijk om allerlei zaken aan te vragen, die je nodig hebt als je net in Nederland woont.</string>
+    <string name="about_activity_content">Je kunt hier documenten verzamelen, ordenen en doorsturen naar bedrijven. We helpen je ook door aan te geven welke documenten je nodig hebt voor elke categorie. Deze app is gemaakt door medewerkers van \'de Volksbank\' als onderdeel van het \'KEI-programma\' 2017.\n\nDeze app maakt gebruik van UCrop (https://github.com/Yalantis/uCrop)</string>
+    <string name="button_hide_splash_screen">Start de app</string>
+    <string name="button_open_splash_screen">Open splashscreen</string>
+    <string name="splash_screen_info">NLHelpU is een app waarmee je als statushouder geholpen wordt om de weg binnen de Nederlandse samenleving te vinden. Het biedt de mogelijkheid om de belangrijkste documenten, nodig voor diverse instanties, te delen met jouw begeleider. Hiermee wordt het eenvoudiger om aanvragen voor bijvoorbeeld een DigiD of bankrekening te regelen.</string>
+    <!-- Documenten -->
+    <string name="button_add_new_document_page">Nieuwe pagina toevoegen</string>
+    <string name="button_mail_all_available_document_pages">Verstuur alle documenten via mail</string>
+    <string name="button_delete_document_page">Verwijderen</string>
+    <string name="button_crop_document_page">Bijsnijden</string>
+    <string name="document_collection_list_item_present_title">aanwezig</string>
+    <string name="document_collection_list_item_not_present_title">voeg toe</string>
+    <string name="mail_subject">Documenten</string><!-- TODO: specifiek onderwerp toevoegen via {1} ofzo -->
+    <string name="mail_chooser_hint">Selecteer je mail-app</string>
+    <string name="document_activity_header_section">"Hier zie je alle pagina's van dit document"</string>
+    <string name="undo_document_part_delete_button">UNDO</string>
+    <string name="undo_document_part_delete_button_details">Ongedaan maken</string>
+    <string name="camera_permissions_error">Zonder camera permissies is het niet mogelijk een nieuwe pagina toe te voegen</string>
+    <string name="mail_permissions_error">Zonder externe opslag permissies is het niet mogelijk de documenten te versturen via mail</string>
+    <!-- Begeleider -->
+    <string name="support_title">Begeleider</string>
+    <string name="support_input_name">Naam</string>
+    <string name="support_input_email">Email</string>
+    <string name="support_input_phone">Telefoonnummer</string>
+    <string name="support_input_notes">Opmerkingen</string>
+    <string name="support_header">Hier kun je informatie van je begeleider invoeren zodat deze gebruikt kan worden voor het versturen van documenten.</string>
+    <string name="button_main_activity_assistant">Mijn Begeleider</string>
+    <!-- sections -->
+    <string name="section_1">DigiD</string>
+    <string name="section_2">Uitkering</string>
+    <string name="section_3">Bankrekening</string>
+    <string name="section_4">Zorgverzekering</string>
+    <string name="section_5">Huurtoeslag</string>
+    <string name="section_6">Zorgtoeslag</string>
+    <string name="section_7">Kindgebonden budget</string>
+    <string name="section_8">Kinderbijslag</string>
+    <string name="section_9">Inburgeringscursus</string>
+    <!-- section-headers -->
+    <string name="section_header_1">DigID is je identiteitsbewijs voor overheidsdiensten op internet. Je hebt het voor bijna alles nodig, zoals het aanvragen van huurtoeslag of een uitkering.</string>
+    <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als u onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering.</string>
+    <string name="section_header_3">Als je langere tijd in Nederland verblijft, is het handig zijn om bij een Nederlandse bank een betaalrekening te hebben. Hier kun je je salaris/uitkering op laten storten en uitgaven mee betalen.</string>
+    <string name="section_header_4">Als je in Nederland woont of werkt, ben je wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek.</string>
+    <string name="section_header_5">TODO: Huurtoeslag</string>
+    <string name="section_header_6">TODO: Zorgtoeslag</string>
+    <string name="section_header_7">TODO: Kindgebonden budget</string>
+    <string name="section_header_8">TODO: Kinderbijslag</string>
+    <string name="section_header_9">TODO: Inburgeringscursus</string>
+    <!-- section-details -->
+    <string-array name="section_details_1">
+        <item>Ga je naar een gemeentehuis, of naar het loket van een andere overheidsinstelling? Dan moet je in veel gevallen je identiteitskaart, paspoort of rijbewijs laten zien. Zo weet de overheid wie je bent. Op internet kun je laten zien wie je bent door in te loggen met je DigiD. Met uw DigiD kun je inloggen op websites van de overheid en in de zorg. Je DigiD bestaat uit een gebruikersnaam en een wachtwoord die je allebei zelf kiest.</item>
+        <item>Let op: gebruikersnaam en wachtwoord zijn strikt persoonlijk. Bescherm deze gegevens daarom goed en voorkom dat anderen er misbruik van kunnen maken. Niemand mag je vragen om je gebruikersnaam, wachtwoord of activeringscode. Niet per e-mail, telefoon of op welke manier dan ook.</item>
+        <item><![CDATA[<b>Hoe werkt DigiD?</b>]]></item>
+        <item>Stel, je wilt huurtoeslag aanvragen op de site van de Belastingdienst. Je wordt dan van de site van de Belastingdienst automatisch doorgeleid naar de inlogpagina van DigiD. Daar vul je je DigiD gebruikersnaam en wachtwoord in. Vervolgens kom je automatisch terug op de site van de Belastingdienst, waar je de huurtoeslag kunt aanvragen.</item>
+        <item><![CDATA[<b>Aanvragen?</b>]]></item>
+        <item>Je kan een DigiD aanvragen op internet, met hulp van een Nederlandse begeleider. Tijdens het aanmaken van je DigiD kun je zelf een DigiD gebruikersnaam kiezen. Het is belangrijk om deze gegevens goed en veilig te bewaren. Nadat de aanvraag verwerkt is, ontvang je een brief met daarop je DigiD wachtwoord. Met deze brief moet binnen 14 dagen de DigiD worden geactiveerd. Het is dus van belang om deze brief goed te bewaren en de DigiD op tijd te activeren.</item>
+        <item><![CDATA[<b>Filmpjes:</b>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=jv68lO2uPUw">https://www.youtube.com/watch?v=jv68lO2uPUw</a>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=IFIJMR6nn6w">https://www.youtube.com/watch?v=IFIJMR6nn6w</a>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=dW28nCYx1ng">https://www.youtube.com/watch?v=dW28nCYx1ng</a>]]></item>
+    </string-array>
+    <string-array name="section_details_2">
+        <item>"Het is belangrijk om jezelf te kunnen onderhouden in Nederland. Kun je dat niet, dan heb je recht op een bijstandsuitkering van de gemeente waar je woont. Deze uitkering is bedoeld als tijdelijke hulp en het is de bedoeling dat je zo snel mogelijk jezelf weer kunt onderhouden door het vinden van werk. <![CDATA[<br />]]>Ben je jonger dan 27? Dan moet je vier weken wachten en zelf op zoek gaan naar werk, voordat je een bijstandsuitkering aanvraagt. Het verschilt per gemeente hoe je een bijstandsuitkering aanvraagt. <![CDATA[<br />]]>Er zijn 2 manieren: online via werk.nl of rechtstreeks bij de gemeente. Om te zien hoe je de aanvraag doet, klik je op de link: <![CDATA[<a href="https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering">https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering</a>]]>. <![CDATA[<br />]]>Daarna log je in met je DigiD. Hoe je een DigiD aanvraagt, vind je onder het kopje DigiD in deze app. Doorloop na het inloggen alle stappen. <![CDATA[<br />]]>Je krijgt dan te zien hoe je de aanvraag doet en je wordt automatisch bij UWV ingeschreven en geregistreerd als werkzoekende. Het bewijs van uw inschrijving vind je in uw Werkmap op werk.nl. Op de pagina 'bijstandsuitkering aanvragen' vraag je via een digitaal formulier een bijstandsuitkering aan."</item>
+        <item><![CDATA[<b>Te verzamelen gegevens</b>]]></item>
+        <item>Verzamel voor het invullen van uw aanvraag de volgende gegevens:</item>
+        <item>1.Je burgerservicenummer (BSN)</item>
+        <item>2.Je DigiD</item>
+        <item>3.Gegevens over:</item>
+        <item>• je huidige inkomensgegevens (arbeid uit loondienst, belastingteruggave, alimentatie)</item>
+        <item>• je lopende uitkeringen (met de hoogte van het toegekende bedrag)</item>
+        <item>• je woonsituatie (hoogte huur/hypotheek)</item>
+        <item>• je laatste werkgever of uitzendbureau waarvoor je werkt of werkte en de begindatum en einddatum van dit dienstverband</item>
+        <item>• je medebewoners (met BSN nummer en geboortedatum)</item>
+        <item>• de inkomensgegevens van je eventuele partner</item>
+        <item>• bewijs van inschrijving bij UWV van je eventuele partner</item>
+        <item>• de gegevens over je vermogen</item>
+        <item>• de waarde van je bezittingen en waardepapieren, de hoogte van je schulden en je bankrekeningen.</item>
+        <item><![CDATA[<b>Vervolg aanvraag bijstandsuitkering</b>]]></item>
+        <item>Aan het einde van de aanvraag staat wat er na het opsturen van de aanvraag van je wordt verwacht. Dit is afhankelijk van de afspraken met de gemeente.</item>
+        <item>Nadat je het digitale formulier helemaal hebt verstuurd, krijg je van UWV een e-mail met een bevestiging dat wij de aanvraag hebben ontvangen. In de e-mail staat een lijst met bewijsstukken die je moet meenemen als je wordt uitgenodigd voor een gesprek, bijvoorbeeld een geldig legitimatiebewijs (paspoort of identiteitskaart, geen rijbewijs).</item>
+    </string-array>
+    <string-array name="section_details_3">
+        <item>Alle Nederlandse banken stellen als voorwaarde dat je in Nederland woont en staat ingeschreven bij de Gemeentelijke Basis Administratie (GBA). Ook moet je een Nederlands identiteitsbewijs of een verblijfsvergunning hebben. Heb je geen verblijfadres in Nederland of sta je niet ingeschreven bij de gemeente? Dan kun je dus geen Nederlandse bankrekening openen. Hetzelfde geldt wanneer je geen geldige identiteitspapieren hebt.</item>
+        <item><![CDATA[<b>Extra mogelijkheden voor ingezetenen van andere EU-landen</b>]]></item>
+        <item>Wie oorspronkelijk uit een andere EU-lidstaat komt, heeft extra mogelijkheden. Nederlandse banken moeten ingezetenen van andere EU-landen namelijk hetzelfde behandelen als klanten uit eigen land. Als de bank je toch weigert vanwege je nationaliteit, kun je bezwaar aantekenen bij de bank. Leidt dit niet tot een gewenste oplossing, dan is een beroep doen op het Europees buitengerechtelijk klachtennetwerk voor financiële diensten de volgende stap.</item>
+        <item><![CDATA[<b>Bankrekening aanvragen</b>]]></item>
+        <item>Voldoe je wel aan de bovengenoemde voorwaarden, dan kun je meestal gewoon online een bankrekening aanvragen bij een van de verschillende Nederlandse banken, daarnaast kun je naast een betaalrekening vaak ook gebruik maken van andere financiële producten van bank zoals het aanvragen van bijvoorbeeld een creditcard of spaarrekening. Het openen van een spaarrekeningen is mogelijk via de website van de betreffende bank of door langs te gaan bij een vestiging van de desbetreffende bank. In dit overzicht zie je direct welke banken in Nederland betaalrekeningen aanbieden en welke kosten zij hiervoor rekenen.</item>
+        <item><![CDATA[<a href="https://www.bankenvergelijking.nl/prive-bankrekening">https://www.bankenvergelijking.nl/prive-bankrekening</a>]]></item>
+    </string-array>
+    <string-array name="section_details_4">
+        <item>Iedereen die in Nederland woont of werkt, is wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek. Daarnaast kan iedereen zich (vrijwillig) aanvullend verzekeren voor kosten die het basispakket niet vergoedt.</item>
+        <item><![CDATA[<b>Collectieve zorgverzekering</b>]]></item>
+        <item>Een basisverzekering vraag je aan bij een zorgverzekeraar. Als je een bijstandsuitkering ontvangt, kun je in aanmerking komen voor een collectieve zorgverzekering komen, die vaak goedkoper is. Voor meer informatie zie: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]></item>
+        <item><![CDATA[<b>Vergelijkingssite collectieve zorgverzekering</b>]]></item>
+        <item>Een vergelijking tussen verschillende zorgverzekeraars is te vinden op de volgende pagina: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
+    </string-array>
+    <string-array name="section_details_5"><item>TODO section details</item></string-array>
+    <string-array name="section_details_6"><item>TODO section details</item></string-array>
+    <string-array name="section_details_7"><item>TODO section details</item></string-array>
+    <string-array name="section_details_8"><item>TODO section details</item></string-array>
+    <string-array name="section_details_9"><item>TODO section details</item></string-array>
+    <!-- file types -->
+    <string name="filetype_1">ID bewijs</string>
+    <string name="filetype_2">BSN brief</string>
+    <string name="filetype_3">Verblijfsvergunning</string>
+    <string name="filetype_4">Activeringsbrief DigiD</string>
+    <string name="filetype_5">Huurovereenkomst</string>
+    <string name="filetype_6">Bankafschrift</string>
+</resources>

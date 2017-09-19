@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Algemeen -->
+    <string name="application_name">NLHelpU</string>
+    <string name="main_section_header">Services</string>
+    <string name="about_header">About</string>
+    <string name="main_activity_info_section">This app makes life more easy for requesting a range of documents needed by you when you just moved over to the Netherlands. </string>
+    <string name="about_activity_content">You can collect necessary documents, categorize and forward them to government or companies. We will you help by identifying which documents are necessary for every category. This app has been created by employees of \'de Volksbank\' as part of an assignment in the \'KEI-program\' 2017.\n\nThis app uses UCrop (https://github.com/Yalantis/uCrop)</string>
+    <string name="button_hide_splash_screen">Start the app</string>
+    <string name="button_open_splash_screen">Open splashscreen</string>
+    <string name="splash_screen_info">NLHelpU is an app you can use to find your way in the Dutch society. It allows you to manage the required documents for various services and share them with your mentor.</string>
+    <!-- Documenten -->
+    <string name="button_add_new_document_page">Add new page</string>
+    <string name="button_mail_all_available_document_pages">Mail all available documents</string>
+    <string name="button_delete_document_page">Delete</string>
+    <string name="button_crop_document_page">Crop</string>
+    <string name="document_collection_list_item_present_title">check</string>
+    <string name="document_collection_list_item_not_present_title">todo</string>
+    <string name="mail_subject">Documents</string>
+    <string name="mail_chooser_hint">Pick an Email provider</string>
+    <string name="document_activity_header_section">This page shows all pages of the document</string>
+    <string name="undo_document_part_delete_button">UNDO</string>
+    <string name="undo_document_part_delete_button_details">Undo deletion</string>
+    <string name="camera_permissions_error">Permissions for camera required for adding a new page</string>
+    <string name="mail_permissions_error">Sending mails is not possible without the external storage permission</string>
+    <!-- Begeleider -->
+    <string name="support_title">Assistant</string>
+    <string name="support_input_name">Name</string>
+    <string name="support_input_email">Email</string>
+    <string name="support_input_phone">Phonenumber</string>
+    <string name="support_input_notes">Notes</string>
+    <string name="support_header">Use this page for keeping track of the contact details of your assistant.</string>
+    <string name="button_main_activity_assistant">My assistant</string>
+    <!-- sections -->
+    <string name="section_1">DigiD</string>
+    <string name="section_2">Social wealth fare payments</string>
+    <string name="section_3">Bank account</string>
+    <string name="section_4">Health insurance</string>
+    <string name="section_5">Rental allowance</string>
+    <string name="section_6">Health allowance</string>
+    <string name="section_7">Child budget</string>
+    <string name="section_8">Child support</string>
+    <string name="section_9">Integration course</string>
+    <!-- section-headers -->
+    <string name="section_header_1">DigiD is your digital ID for government services on the internet. You need it for almost everything, such as applying for a rent-rebate or social welfare payment.</string>
+    <string name="section_header_2">U can request socials wealth fare payments when U have insufficient income to live.</string>
+    <string name="section_header_3">If you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch payments account. It can be used to get your salary or benefits paid on and you can pay your expenditures with it.</string>
+    <string name="section_header_4">If you are living or working in the Netherlands you are legally obliged to have a basic insurance. This basic insurance covers the health care for example of a doctor, hospital or pharmacy.</string>
+    <string name="section_header_5">Section header: TODO...</string>
+    <string name="section_header_6">Section header: TODO...</string>
+    <string name="section_header_7">Section header: TODO...</string>
+    <string name="section_header_8">Section header: TODO...</string>
+    <string name="section_header_9">Section header: TODO...</string>
+    <!-- section-details -->
+    <string-array name="section_details_1">
+        <item>"Are you going to a town hall or to another public institution's office? In many cases, you must show your passport or driver's license. That's how the government knows who you are. On the internet you can digitally identify yourself by using your DigiD. With your DigiD you can log in to government and healthcare websites."</item>
+        <item>Your DigiD consists of a username and password that you both choose yourself. Please note: username and password are strictly personal. Keep this information safe and prevent misuse. No-one may ask you for your username, password or activation code. Not by email, phone or any way.</item>
+        <item><![CDATA[<b>How does DigiD work?</b>]]></item>
+        <item>Imagine you want to apply for a rent allowance on the Tax Administration site. You will then be automatically forwarded to the DigiD login page from the Tax Office. You enter your DigiD username and password. Then you automatically return to the Tax Administration site, where you can apply for the rent allowance.</item>
+        <item><![CDATA[<b>How to get a DigiD?</b>]]></item>
+        <item>"You can apply for a DigiD on the internet, with the help of a Dutch assistant. When you create your DigiD, you can choose a username. As mentioned above it is important to keep this information safe and secure. Once the application has been processed, you will receive a letter containing your DigiD password. Your DigiD must be activated within 14 days. It is therefore important to archive this letter (don't throw it away!) and activate the DigiD as soon as possible.​"</item>
+        <item><![CDATA[<b>Movies:</b>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=jv68lO2uPUw">https://www.youtube.com/watch?v=jv68lO2uPUw</a>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=IFIJMR6nn6w">https://www.youtube.com/watch?v=IFIJMR6nn6w</a>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=dW28nCYx1ng">https://www.youtube.com/watch?v=dW28nCYx1ng</a>]]></item>
+    </string-array>
+    <string-array name="section_details_2"><item>TODO section details</item></string-array>
+    <string-array name="section_details_3">
+        <item>All Dutch banks require that you live in the Netherlands and are subscribed to the GBA, Gemeentelijke Basis Administratie (Municipal Basic Administration). You are also required to have a Dutch identification or residence permit. Without these it will be impossible to request a bank account.</item>
+        <item><![CDATA[<b>Extra options for residents from other EU member states</b>]]></item>
+        <item>People who originate from other EU member state have extra options. Dutch banks have to treat residents from other EU member states in the same fashion as residents from their own country. If the bank denies your request due to your nationality, you can object at the bank. If escalation is necessary the next step is filing a complaint at the European extrajudicial complaints network for financial services.</item>
+        <item><![CDATA[<b>Applying for a bank account</b>]]></item>
+        <item>If you do comply with above requirements you can often request a payments account online at the different Dutch banks or by visiting their offices. On top of the savings account you can also use other financial services like requesting a creditcard. In the following overview you can see which banks in the Netherlands offer payments accounts and how much they charge for their services:</item>
+        <item><![CDATA[<a href="https://www.bankenvergelijking.nl/prive-bankrekening">https://www.bankenvergelijking.nl/prive-bankrekening</a>]]></item>
+    </string-array>
+    <string-array name="section_details_4">
+        <item>Every person living or working in the Netherlands is legally obliged to have a basic insurance.  This basic insurance covers the health care for example of a doctor, hospital or pharmacy.  On top of the basic insurance an extra voluntarily insurance can be added for expenses not covered by the basic insurance.</item>
+        <item><![CDATA[<b>Group health insurance</b>]]></item>
+        <item>A health insurance can be requested at a healthcare insurer. If you receive social welfare, you are eligible for a group health insurance, often less expensive. For more information (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]></item>
+        <item><![CDATA[<b>Comparison site group health insurance</b>]]></item>
+        <item>Een comparison between various healthcare insurers is available at (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
+    </string-array>
+    <string-array name="section_details_5"><item>TODO section details</item></string-array>
+    <string-array name="section_details_6"><item>TODO section details</item></string-array>
+    <string-array name="section_details_7"><item>TODO section details</item></string-array>
+    <string-array name="section_details_8"><item>TODO section details</item></string-array>
+    <string-array name="section_details_9"><item>TODO section details</item></string-array>
+    <!-- file types -->
+    <string name="filetype_1">ID card</string>
+    <string name="filetype_2">Social Security Number letter</string>
+    <string name="filetype_3">Residence permit</string>
+    <string name="filetype_4">Activation letter DigiD</string>
+    <string name="filetype_5">House rental contract</string>
+    <string name="filetype_6">Bank statement</string>
+</resources>

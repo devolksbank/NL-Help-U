@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="8dp"
+    tools:context="nl.devolksbank.nlhelpu.activity.MainActivity">
+
+    <TextView
+        android:id="@+id/textMainDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/main_activity_info_section" />
+
+    <Button
+        android:id="@+id/buttonBegeleider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/colorButtons"
+        android:text="@string/button_main_activity_assistant" />
+
+    <TextView
+        android:id="@+id/textMainSectionHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/main_section_header"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/listMainMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

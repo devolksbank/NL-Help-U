@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="nl.devolksbank.nlhelpu">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- Note: this requires devices to have a camera to be able to install this app -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/application_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:hardwareAccelerated="false"
+        android:theme="@style/AppTheme">
+
+        <!-- Main page containing a list of sections -->
+        <activity android:name="nl.devolksbank.nlhelpu.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sub page for the documents of a section -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.DocumentCollectionActivity"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.MainActivity" />
+
+        <!-- Sub page for the section info (details) -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.SectionInfo"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.DocumentCollectionActivity" />
+
+        <!-- Sub page for the begeleider/support -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.SupportActivity"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.MainActivity" />
+
+        <!-- Sub page for the about -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.AboutActivity"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.MainActivity" />
+
+        <!-- Sub page for the parts of a document -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.DocumentActivity"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.DocumentCollectionActivity" />
+
+        <!-- Image cropping external library -->
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <!-- Document part view (for zooming) -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.DocumentPartViewActivity"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.DocumentActivity" />
+
+        <!-- Splashscreen activity -->
+        <activity
+            android:name="nl.devolksbank.nlhelpu.activity.SplashActivity"
+            android:theme="@style/AppThemeSplash"
+            android:parentActivityName="nl.devolksbank.nlhelpu.activity.MainActivity" >
+        </activity>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>

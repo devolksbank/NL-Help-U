@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!-- Algemeen -->
+    <string name="application_name">NLHelpU</string>
+    <string name="main_section_header">عرض</string>
+    <string name="about_header">حول التطبيق</string>
+    <string name="main_activity_info_section">هذا التطبيق يسهل عليك عملية  طلب  جميع الأشياء، التي تحتاجها  إذا كنت تسكن في هولندا.</string>
+    <string name="about_activity_content">يمكنك هنا جمع الوثائق  وتنظيمها وإرسالها إلى الشركات. نحن نساعدك كذلك على تحديد الوثائق التي تحتاج لكل فئة. تم إنشاء هذا التطبيق على أيدي أفراد من "بنك الشعب"  كجزء من "برنامج \n\nKEI" 2017يستخدم هذا التطبيق أوكروب (https://github.com/Yalantis/uCrop)</string>
+    <string name="button_hide_splash_screen">ابدأ تشغيل التطبيق.</string>
+    <string name="button_open_splash_screen">افتح شاشة البداية</string>
+    <string name="splash_screen_info">NLHelpU   هو تطبيق يساعدك كحامل تصريح إقامة في ايجاد  طريقك إلى المجتمع الهولندي.
+ويسهل من إمكانية مقاسمة الوثائق الأساسية المطلوبة من مختلف الوكالات مع الموجه الشخصي. وهذا يُسهِّل طلب DigiD  أو حساب بنكي على سبيل المثال.</string>
+    <!-- Documenten -->
+    <string name="button_add_new_document_page">إضافة صفحة جديدة</string>
+    <string name="button_mail_all_available_document_pages">أَرسِل جميع الوثائق عن طريق البريد الإلكتروني</string>
+    <string name="button_delete_document_page">إزالة</string>
+    <string name="button_crop_document_page">قَصّ</string>
+    <string name="document_collection_list_item_present_title">حاضر</string>
+    <string name="document_collection_list_item_not_present_title">أَضِف</string>
+    <string name="mail_subject">الوثائق</string><!-- TODO: specifiek onderwerp toevoegen via {1} ofzo -->
+    <string name="mail_chooser_hint">اختر تطبيق البريد الإلكتروني الخاص بك</string>
+    <string name="document_activity_header_section">تجد هنا كل صفحات هذه الوثيقة</string>
+    <string name="undo_document_part_delete_button">الإلغاء</string>
+    <string name="undo_document_part_delete_button_details">الإلغاء</string>
+    <string name="camera_permissions_error">لا يمكن إضافة صفحة جديدة دون أذونات  الكاميرا.</string>
+    <string name="mail_permissions_error">لا يمكن إرسال الوثائق عبر البريد دون أذونات التخزين الخارجي.</string>
+    <!-- Begeleider -->
+    <string name="support_title">الموجه</string>
+    <string name="support_input_name">الاسم</string>
+    <string name="support_input_email">البريد الالكتروني</string>
+    <string name="support_input_phone">رقم الهاتف</string>
+    <string name="support_input_notes">الملاحظات</string>
+    <string name="support_header">يمكنك هنا إدخال المعلومات المتعلقة بالموجه الشخصي حتى يمكن استخدامها  لإرسال الوثائق.</string>
+    <string name="button_main_activity_assistant">موجهي الشخصي</string>
+    <!-- sections -->
+    <string name="section_1">DigiD</string>
+    <string name="section_2">التعويضات</string>
+    <string name="section_3">الحساب البنكي</string>
+    <string name="section_4">التأمين الصحي</string>
+    <string name="section_5">اعانة الإيجار</string>
+    <string name="section_6">اعانة التأمين الصحي</string>
+    <string name="section_7">ميزانية الطفل</string>
+    <string name="section_8">إعانة الطفل</string>
+    <string name="section_9">دورة المواطنة</string>
+    <!-- section-headers -->
+    <string name="section_header_1">DigiD هو هويتك للخدمات الحكومية على شبكة الإنترنت. أنت تحتاج إليها في كل الأشياء تقريبا، مثل طلب إعانة الإيجار أو تعويضات.</string>
+    <string name="section_header_2">يمكنك تقديم طلب الحصول على التعويضات  إذا لم يكن لديك ما يكفي من الدخل أو الأصول للعيش وليس لك الحق في الحصول على تعويضات اجتماعية أخرى.</string>
+    <string name="section_header_3">Aإذا كنت تقيم لمدة طويلة في هولندا، فمن العملي أن يكون لديك حساب بنكي ببنك هولندي. يمكنك ايداع راتبك/ تعويضاتك ودفع المصروفات.</string>
+    <string name="section_header_4">إذا كنت تعيش أو تعمل في هولندا، فإنك مطالب قانونيا بالحصول على تأمين أساسي. يغطي هذا التأمين الأساسي الرعاية الثابتة، على سبيل المثال، طبيب عام أو مستشفى أو صيدلية.</string>
+    <string name="section_header_5">TODO: اعانة الإيجار</string>
+    <string name="section_header_6">TODO: اعانة التأمين الصحي</string>
+    <string name="section_header_7">TODO: ميزانية الطفل</string>
+    <string name="section_header_8">TODO: إعانة الطفل</string>
+    <string name="section_header_9">TODO: دورة المواطنة</string>
+    <!-- section-details -->
+    <string-array name="section_details_1">
+        <item>إذا ذهبت إلى البلدية، أو إلى شباك مؤسسة حكومية أخرى؟ فيجب عليك أن تُقدم في كثير من الحالات، بطاقة الهوية أو جواز السفر أو رخصة السياقة. وبهذا تتعرف الجهات الحكومية على هويتك. يمكنك تقديم هويتك على شبكة الانترنت عن طريق تسجيل الدخول بواسطة DigiD الخاص بك. يمكنك بواسطة DigiD الخاص بك تسجيل الدخول إلى مواقع الحكومة والرعاية. تتكون DigiD من اسم المستخدم وكلمة المرور التي تختارهما بنفسك.</item>
+        <item>ملاحظة: اسم المستخدم وكلمة المرور هي شخصية للغاية. قم بحماية هذه المعلومات وبالتالي تمنع  الآخرين من استعمالها. لا ينبغي لأحد أن يطلب منك اسم المستخدم وكلمة المرور أو رمز التفعيل، عن طريق البريد الالكتروني أو الهاتف أو بأي شكل من الأشكال.</item>
+        <item><![CDATA[<b>كيف تعمل DigiD؟</b>]]></item>
+        <item>افترض أنك تريد طلب إعانة الإيجار على الموقع الإلكتروني لمصلحة الضرائب. فسوف يتم  توجيهك على موقع مصلحة الضرائب إلى صفحة تسجيل الدخول إلى DigiD. هناك تقوم بإدخال اسم المستخدم وكلمة المرور لــ DigiD  الخاص بك. ثم تعود تلقائيا إلى موقع مصلحة الضرائب، حيث يمكنك تقديم طلب الحصول على إعانة الإيجار.</item>
+        <item><![CDATA[<b>الطلبات؟</b>]]></item>
+        <item>يمكنك طلب  DigiD على شبكة الإنترنت، بمساعدة الموجه الهولندي. يمكنك خلال إنشاء DigID اختيار اسم المستخدم لـ DigiD الخاص بك بنفسك. فمن المهم الحفاظ على هذه المعلومات بشكل صحيح وآمن. وبمجرد معالجة الطلب، سوف تتلقى رسالة تحتوي على  كلمة مرور  DigiD الخاص بك. يجب بهذه الرسالة تفعيل  DigiD  في غضون 14 يوما. ولذلك فمن المهم الحفاظ على هذه الرسالة بشكل صحيح وتفعيل DigiD  في الوقت المحدد.</item>
+        <item><![CDATA[<b>أفلام</b>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=jv68lO2uPUw">https://www.youtube.com/watch?v=jv68lO2uPUw</a>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=IFIJMR6nn6w">https://www.youtube.com/watch?v=IFIJMR6nn6w</a>]]></item>
+        <item><![CDATA[<a href="https://www.youtube.com/watch?v=dW28nCYx1ng">https://www.youtube.com/watch?v=dW28nCYx1ng</a>]]></item>
+    </string-array>
+    <string-array name="section_details_2">
+        <item>"ومن المهم أن تكون قادرا على كفالة  نفسك في هولندا. إذا كنت لا تستطيع ذلك، فلك الحق في الحصول على التعويضات الاجتماعية من البلدية التي تسكن فيها. ويهدف هذا التعويض إلى المساعدة المؤقتة بُغية إمكانية كفالة نفسك في أسرع وقت ممكن مرة أخرى عن طريق العثور على عمل. إذا كان عمرك أقل من 27؟ فعليك أن تنتظر أربعة أسابيع والبدء في البحث عن العمل قبل طلب الحصول على التعويضات الاجتماعية. ويختلف كيفية طلب التعويضات  الاجتماعية من بلدية  لأخرى. هناك طريقتان: عبر الإنترنت من خلال werk.nl أو مباشرة من البلدية. لترى كيف تقوم بالطلب انقر على الرابط: https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering. ثم قم بتسجيل الدخول باستخدام DigiD الخاص بك. ستجد طريقة طلب DigiD تحت العنوان DigiD  في هذا التطبيق. اتبع جميع الخطوات بعد تسجيل الدخول. سترى كيف تقدم الطلب وسيتم تسجيلك  تلقائيا لدى UWV ويتم تقييدك كعاطل عن العمل. ستجد الدليل على تسجيلك في المصنف الخاص بك على werk.nl. وتطلب على الصفحة "طلب التعويضات الاجتماعية" التعويضات الاجتماعية عبر استمارة رقمية. اتبع جميع الخطوات على هذه الصفحة."</item>
+        <item>ولملأ الطلب الخاص بك قم بجمع المعلومات التالية:</item>
+        <item>1.  رقم خدمة المواطن (BSN)</item>
+        <item>2.  DigiD الخاص بك</item>
+        <item>3. البيانات حول:</item>
+        <item>• بيانات الدخل الحالية (العمل من بيان الراتب، استرداد الضرائب والنفقة)</item>
+        <item>• التعويضات الحالية (مع قدر المبلغ الممنوح)</item>
+        <item>• الوضع السكني الخاص بك (مبلغ الإيجار / الرهن العقاري)</item>
+        <item>• آخر رب العمل أو وكالة التوظيف أين تعمل أو عملت بها وتاريخ بداية و نهاية هذا العمل</item>
+        <item>• الساكنون معك (مع رقم خدمة المواطن (BSN) وتاريخ الميلاد) </item>
+        <item>• بيانات دخل شريكك المحتمل</item>
+        <item>• دليل تسجيل شريكك المحتمل لدى UWV </item>
+        <item>• بيانات حول القدرة المالية الخاصة بك</item>
+        <item>• قيمة الأصول والأوراق المالية، ومقدار الديون الخاصة بك والحسابات البنكية الخاصة بك.</item>
+        <item>تابع طلب التعويضات لاجتماعية </item>
+        <item>ستجد في نهاية الطلب وبعد إرسال الطلب ما هو متوقع منك. وهذا يتوقف على الاتفاق مع البلدية.</item>
+        <item>بعد إرسال الاستمارة الرقمية، ستحصل من قبل UWV على رسالة تأكيد عبر البريد الإلكتروني بالتوصل بطلبك. توجد بالرسالة الإلكترونية  قائمة الوثائق التي ستصحبها معك عند دعوتك  للمقابلة، على سبيل المثال، وثيقة هوية صالحة (جواز سفر أو بطاقة هوية، وليس رخصة قيادة).</item>
+    </string-array>
+    <string-array name="section_details_3">
+        <item>تشترط  جميع البنوك الهولندية أن تكون مقيما في هولندا ومسجل لدى ﺳﺠﻞ قاعدة اﻟﺒﻴﺎﻧﺎﺕ  ﺍﻟﺸﺨﺼﻴﺔ للبلدية (GBA). كما يجب أن يكون لديك بطاقة الهوية الهولندية أو تصريح إقامة. إذا لم يكن لديك عنوان سكن في هولندا أو أنك غير مسجل في البلدية؟ فلا يمكنك فتح حساب بنكي هولندي. وينطبق الشيء نفسه إذا لم تكن لديك أي أوراق هوية صالحة.</item>
+        <item>الذين جاءوا أصلا من دولة أخرى عضو في الاتحاد الأوروبي، لديهم ميزات اضافية. يجب أن تعامل البنوك الهولندية سكان دول الاتحاد الأوروبي الأخرى نفس المعاملة كزبناء في بلدهم. إذا رفضك البنك بسبب جنسيتك، يمكنك تقديم اعتراض لدى البنك. إذا لم يؤدي ذلك إلى الحل المنشود، فإن الخطوة التالية هي تقديم  شكوى الى شبكة الزبناء خارج نطاق القضاء الأوروبية للخدمات المالية.</item>
+        <item>إذا كنت تفي بالشروط المذكورة أعلاه، يمكنك عادة طلب الحصول على حساب بنكي  على الانترنت لدى أحد البنوك الهولندية العديدة، بالإضافة إلى ذلك يمكنك  في كثير من الأحيان إضافة إلى حساب الدفع استخدام خدمات مالية أخرى من البنك كطلب بطاقة ائتمان على سبيل المثال أو حساب التوفير . يمكن فتح حساب التوفير من خلال الموقع الإلكتروني للبنك أو بالذهاب إلى فرع للبنك. ترى في هذا العرض مباشرة ما هي البنوك في هولندا التي تقدم حساب الدفع وما ذا يكلف ذلك.</item>
+    </string-array>
+    <string-array name="section_details_4">
+        <item>وأي شخص يعيش أو يعمل في هولندا مطلوب قانونيا بالحصول على تأمين أساسي. يغطي هذا التأمين الأساسي الرعاية الثابتة، على سبيل المثال، طبيب عام أو مستشفى أو صيدلية. وبالإضافة إلى ذلك، يمكن للجميع (طوعا) تأمين إضافي على التكاليف التي لا تعوض من قبل الحزمة الأساسية.</item>
+        <item><![CDATA[<b>التأمين الصحي الجماعي</b>]]></item>
+        <item><![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]>تطلب التأمين الأساسي من شركة تأمين صحي. إذا كنت تحصل على إعانة الضمان الاجتماعي، فقد تكون مؤهلا للحصول على تأمين صحي جماعي، والذي غالبا ما يكون أرخص. لمزيد من المعلومات انظر:</item>
+        <item><![CDATA[<b>موقع مقارنة التأمين الصحي الجماعي</b>]]></item>
+        <item><![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]>للمقارنة بين شركات التأمين المختلفة يمكن الاطلاع على الصفحة التالية:</item>
+    </string-array>
+    <string-array name="section_details_5"><item>TODO section details</item></string-array>
+    <string-array name="section_details_6"><item>TODO section details</item></string-array>
+    <string-array name="section_details_7"><item>TODO section details</item></string-array>
+    <string-array name="section_details_8"><item>TODO section details</item></string-array>
+    <string-array name="section_details_9"><item>TODO section details</item></string-array>
+    <!-- file types -->
+    <string name="filetype_1">بطاقة الهوية</string>
+    <string name="filetype_2">سوسيال سيكوريتيونمبر الرسالة</string><!-- google translated -->
+    <string name="filetype_3">تصريح الإقامة</string>
+    <string name="filetype_4">تفعيل رسالة DigiD</string>
+    <string name="filetype_5">عقد تأجير</string>
+    <string name="filetype_6">بيان البنك</string>
+</resources>
