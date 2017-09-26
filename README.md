@@ -27,9 +27,9 @@ The app is published in the Android Play store: https://play.google.com/store/ap
 ## How can I contribute?
 
 You can help by:
- - adding new features to the app (like setting reminders for requests and so on)
- - adding or updating information within the app (new topics or new information regarding existing topcis)
- - helping with translations (of new content or to other languages)
+ - Adding new features to the app (like setting reminders for requests and so on)
+ - Adding or updating information within the app (new topics or new information regarding existing topcis)
+ - Helping with translations (of new content or to other languages)
  - Create an iOS version of this app
 
 Please feel free to create some pullrequests or contact us at: [info@nlhelpu.nl](info@nlhelpu.nl)
