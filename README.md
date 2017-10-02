@@ -34,6 +34,16 @@ You can help by:
 
 Please feel free to create some pullrequests or contact us at: [info@nlhelpu.nl](info@nlhelpu.nl)
 
+## Howto start development
+
+When opening the app, you might get a message regarding missing properties (like: NL_HELP_U_RELEASE_STORE_FILE). To fix this, please add a file with the following content in [home-directory]/.gradle/gradle.properties:
+```
+NL_HELP_U_RELEASE_STORE_FILE=<path-to-a-valid-possible-empty-file>
+NL_HELP_U_RELEASE_STORE_PASSWORD=
+NL_HELP_U_RELEASE_KEY_ALIAS=
+NL_HELP_U_RELEASE_KEY_PASSWORD=
+```
+
 # License
 
 MIT
