@@ -17,3 +17,6 @@ gradlew\.bat
 gradlew
 
 gradle/wrapper/gradle-wrapper\.jar
+app/src/main/gen/nl/devolksbank/nlhelpu/BuildConfig.java
+app/src/main/gen/nl/devolksbank/nlhelpu/Manifest.java
+app/src/main/gen/nl/devolksbank/nlhelpu/R.java
