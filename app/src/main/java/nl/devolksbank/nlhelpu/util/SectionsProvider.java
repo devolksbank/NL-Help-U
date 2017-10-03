@@ -136,6 +136,7 @@ public class SectionsProvider {
                 break;
             case 5:
                 output.add(FileType.PASSPORT_PHOTO);
+                break;
             case 6:
             case 7:
             case 8:
