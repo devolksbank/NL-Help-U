@@ -33,20 +33,20 @@
     <string name="button_main_activity_assistant">My assistant</string>
     <!-- sections -->
     <string name="section_1">DigiD</string>
-    <string name="section_2">Social wealth fare payments</string>
+    <string name="section_2">Social welfare payments</string>
     <string name="section_3">Bank account</string>
     <string name="section_4">Health insurance</string>
-    <string name="section_5">Rental allowance</string>
+    <string name="section_5">OV-chipkaart (public transport chip card)</string>
     <string name="section_6">Health allowance</string>
     <string name="section_7">Child budget</string>
     <string name="section_8">Child support</string>
     <string name="section_9">Integration course</string>
     <!-- section-headers -->
     <string name="section_header_1">DigiD is your digital ID for government services on the internet. You need it for almost everything, such as applying for a rent-rebate or social welfare payment.</string>
-    <string name="section_header_2">U can request socials wealth fare payments when U have insufficient income to live.</string>
+    <string name="section_header_2">You can request social welfare payments when you have insufficient income to live.</string>
     <string name="section_header_3">If you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch payments account. It can be used to get your salary or benefits paid on and you can pay your expenditures with it.</string>
     <string name="section_header_4">If you are living or working in the Netherlands you are legally obliged to have a basic insurance. This basic insurance covers the health care for example of a doctor, hospital or pharmacy.</string>
-    <string name="section_header_5">Section header: TODO...</string>
+    <string name="section_header_5">The OV-chipkaart is a card you can use to pay for public transport in the Netherlands. If you have an OV-chipkaart you don\'t have to buy separate tickets for traveling by bus, train or subway.</string>
     <string name="section_header_6">Section header: TODO...</string>
     <string name="section_header_7">Section header: TODO...</string>
     <string name="section_header_8">Section header: TODO...</string>
@@ -64,7 +64,29 @@
         <item><![CDATA[<a href="https://www.youtube.com/watch?v=IFIJMR6nn6w">https://www.youtube.com/watch?v=IFIJMR6nn6w</a>]]></item>
         <item><![CDATA[<a href="https://www.youtube.com/watch?v=dW28nCYx1ng">https://www.youtube.com/watch?v=dW28nCYx1ng</a>]]></item>
     </string-array>
-    <string-array name="section_details_2"><item>TODO section details</item></string-array>
+    <string-array name="section_details_2">
+        <item>It is important to be able to maintain yourself in the Netherlands. If you cannot, you are entitled to an assistance allowance (or social welfare payment) of the municipality where you live. These social welfare payments are intended as a temporary aid and you should intend to maintain yourself as soon as possible by finding a job.</item>
+        <item>Are you under 27? Then you have to wait for four weeks and search for a job before applying for social welfare payments.</item>
+        <item>In each municipality it is different how to apply for social welfare payments. There are 2 ways: online or directly at the municipality. To see how to apply, click on the link: <![CDATA[<a href="https://www.werk.nl/portal/page/portal/work_en/werknemer/uitkering-aanvragen/assistanceuitbetaling">https://www.werk.nl/portal/page/portal/work_en/werknemer/uitkering-aanvragen/bijdrageverzekering</a>]]>.</item>
+        <item>Then sign in with your DigiD. How to apply for a DigiD is under the heading DigiD in this app. After logging in continue all steps. You will then see how you apply and you are automatically registered at UWV as a jobseeker. The proof of your registration can be found in your Workbook at werk.nl. On the \'Bijstandsuitkering aanvragen\' page, you can apply for social welfare payments through a digital form.</item>
+        <item><![CDATA[<b>Gather data</​​b>]]></item>
+        <item>To complete your application, collect the following information:</item>
+        <item>1.Your citizenship number (BSN)</item>
+        <item>2.Your DigiD</item>
+        <item>3.Data about:</item>
+        <item>• Your current income data (employment, tax return, alimony)</item>
+        <item>• Your current benefits (with the amount of the amount granted)</item>
+        <item>• Your living situation (height rent / mortgage)</item>
+        <item>• Your last employer or employment agency for which you work or worked and the start date and end date of this employment.</item>
+        <item>• your fellow residents (with BSN number and date of birth)</item>
+        <item>• The income data of your partner (if applicable)</item>
+        <item>• Evidence of application at UWV of your partner</item>
+        <item>• The data about your wealth</item>
+        <item>• The value of your assets and securities, the height of your debts and your bank accounts.</item>
+        <item><![CDATA[<b>Continue Request Assistance Payment</b>]]></item>
+        <item>At the end of the application, what is expected after sending the request. This depends on the arrangements with the municipality.</item>
+        <item>Once you have sent the digital form completely, you will receive an email from UWV with confirmation that we have received the request. The e-mail contains a list of supporting documents that you must include when you are invited to a call, such as a valid ID (passport or ID, no driver\'s license).</item>
+    </string-array>
     <string-array name="section_details_3">
         <item>All Dutch banks require that you live in the Netherlands and are subscribed to the GBA, Gemeentelijke Basis Administratie (Municipal Basic Administration). You are also required to have a Dutch identification or residence permit. Without these it will be impossible to request a bank account.</item>
         <item><![CDATA[<b>Extra options for residents from other EU member states</b>]]></item>
@@ -80,8 +102,28 @@
         <item><![CDATA[<b>Comparison site group health insurance</b>]]></item>
         <item>Een comparison between various healthcare insurers is available at (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
     </string-array>
-    <string-array name="section_details_5"><item>TODO section details</item></string-array>
-    <string-array name="section_details_6"><item>TODO section details</item></string-array>
+    <string-array name="section_details_5">
+        <item>If you carry an OV-chipkaart with you, you no longer need to buy separate strip tickets or metro tickets. You load credit onto the card in Euro or add a travel product, such as a single journey, a monthly subscription or a season ticket.</item>
+        <item>There are two different cards: a personal OV-chipkaart and an anonymous OV-chipkaart. You can always recognize an OV-chipkaart by the pink logo. The chip in the OV-chipkaart is not visible. Your personal OV-chipkaart shows your photo, date of birth, the expiry date and the OV-chipkaart number. An anonymous OV-chipkaart (often) shows the operator\'s logo and the expiry date.</item>
+        <item><![CDATA[<b>Which card is right for you?</b>]]></item>
+        <item>The anonymous card is not linked to an individual. So it is not possible to add passes to the card. The anonymous card can be used by more than one person, though not at the same time. For example, you travel with the anonymous OV-chipkaart by train to Amsterdam and your son uses the same card a day later to go to the bus by bus. This is very convenient for a family.</item>
+        <item>If you often travel by public transport, the personal OV-chipkaart is convenient. You can add several travel products at the same time as well as using passes and age discounts. Everything on one card.</item>
+        <item><![CDATA[<b>How to buy an OV-chipkaart and what does it cost?</b>]]></item>
+        <item>the suggested retail price for a anonymous OV-chipkaart is € 7,50. The card is valid for five years. An anonymous OV-chipkaart can be purchased:</item>
+        <item>• at ticket machines in stations</item>
+        <item>• at various newsagents (such as Primera)</item>
+        <item>• at various supermarkets</item>
+        <item>• at some Bruna shops</item>
+        <item>• at a public transport company\'s counter (they may charge extra for that)</item>
+        <item>• online at: <![CDATA[<a href="http://www.ovshop.nl/">http://www.ovshop.nl/</a>]]></item>
+        <item>You can apply for a personal OV-chipkaart online at: <![CDATA[<a href="https://www.ov-chipkaart.nl/ov-chip-kopen/persoonlijke-ov-chipkaart-aanvragen.htm">https://www.ov-chipkaart.nl/ov-chip-kopen/persoonlijke-ov-chipkaart-aanvragen.htm</a>]]>. The personal OV-chipkaart costs € 7.50. A personal OV-chipkaart is also valid for five years.</item>
+        <item>If you cannot or do not wish to apply for your personal OV-chipkaart online, you can pick up a paper application form for a personal OV-chipkaart at the counters for public transport companies, or order one at the OV-chipkaart Customer Care Center, dial 0900-0980 (not free of charge). Processing  a paper application form involves additional actions, such as entry of your details into computer systems. You will therefore pay a fee of €3.- for a paper application form.</item>
+        <item><![CDATA[<b>What do I need to apply for an OV-chipkaart?</b>]]></item>
+        <item>An anonymous OV-chipkaart doesn’t require any documents. You can just buy it in various shops. If you apply for it online, you need to be able to pay by iDEAL, see details below.</item>
+        <item>To apply online for a personal OV-chipkaart you need:</item>
+        <item>• a passport photo in jpg, max. 5 MB</item>
+        <item>• A bank account in the Netherlands with Internet Banking or Mobile Banking, because payment is done by iDEAL</item>
+    </string-array>
     <string-array name="section_details_7"><item>TODO section details</item></string-array>
     <string-array name="section_details_8"><item>TODO section details</item></string-array>
     <string-array name="section_details_9"><item>TODO section details</item></string-array>
@@ -92,4 +134,5 @@
     <string name="filetype_4">Activation letter DigiD</string>
     <string name="filetype_5">House rental contract</string>
     <string name="filetype_6">Bank statement</string>
+    <string name="filetype_7">Passport photo</string>
 </resources>

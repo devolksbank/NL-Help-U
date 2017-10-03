@@ -43,10 +43,10 @@
     <string name="section_9">Inburgeringscursus</string>
     <!-- section-headers -->
     <string name="section_header_1">DigID is je identiteitsbewijs voor overheidsdiensten op internet. Je hebt het voor bijna alles nodig, zoals het aanvragen van huurtoeslag of een uitkering.</string>
-    <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als u onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering.</string>
+    <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als je onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering.</string>
     <string name="section_header_3">Als je langere tijd in Nederland verblijft, is het handig zijn om bij een Nederlandse bank een betaalrekening te hebben. Hier kun je je salaris/uitkering op laten storten en uitgaven mee betalen.</string>
     <string name="section_header_4">Als je in Nederland woont of werkt, ben je wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek.</string>
-    <string name="section_header_5">TODO: Huurtoeslag</string>
+    <string name="section_header_5">De OV-chipkaart is het betaalmiddel voor het openbaar vervoer in Nederland. Met een OV-chipkaart hoef je geen losse kaartjes meer te kopen voor de bus, trein, tram of metro.</string>
     <string name="section_header_6">TODO: Zorgtoeslag</string>
     <string name="section_header_7">TODO: Kindgebonden budget</string>
     <string name="section_header_8">TODO: Kinderbijslag</string>
@@ -65,7 +65,9 @@
         <item><![CDATA[<a href="https://www.youtube.com/watch?v=dW28nCYx1ng">https://www.youtube.com/watch?v=dW28nCYx1ng</a>]]></item>
     </string-array>
     <string-array name="section_details_2">
-        <item>"Het is belangrijk om jezelf te kunnen onderhouden in Nederland. Kun je dat niet, dan heb je recht op een bijstandsuitkering van de gemeente waar je woont. Deze uitkering is bedoeld als tijdelijke hulp en het is de bedoeling dat je zo snel mogelijk jezelf weer kunt onderhouden door het vinden van werk. <![CDATA[<br />]]>Ben je jonger dan 27? Dan moet je vier weken wachten en zelf op zoek gaan naar werk, voordat je een bijstandsuitkering aanvraagt. Het verschilt per gemeente hoe je een bijstandsuitkering aanvraagt. <![CDATA[<br />]]>Er zijn 2 manieren: online via werk.nl of rechtstreeks bij de gemeente. Om te zien hoe je de aanvraag doet, klik je op de link: <![CDATA[<a href="https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering">https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering</a>]]>. <![CDATA[<br />]]>Daarna log je in met je DigiD. Hoe je een DigiD aanvraagt, vind je onder het kopje DigiD in deze app. Doorloop na het inloggen alle stappen. <![CDATA[<br />]]>Je krijgt dan te zien hoe je de aanvraag doet en je wordt automatisch bij UWV ingeschreven en geregistreerd als werkzoekende. Het bewijs van uw inschrijving vind je in uw Werkmap op werk.nl. Op de pagina 'bijstandsuitkering aanvragen' vraag je via een digitaal formulier een bijstandsuitkering aan."</item>
+        <item>Het is belangrijk om jezelf te kunnen onderhouden in Nederland. Kun je dat niet, dan heb je recht op een bijstandsuitkering van de gemeente waar je woont. Deze uitkering is bedoeld als tijdelijke hulp en het is de bedoeling dat je zo snel mogelijk jezelf weer kunt onderhouden door het vinden van werk. Ben je jonger dan 27? Dan moet je vier weken wachten en zelf op zoek gaan naar werk, voordat je een bijstandsuitkering aanvraagt.</item>
+        <item>Het verschilt per gemeente hoe je een bijstandsuitkering aanvraagt. Er zijn 2 manieren: online via werk.nl of rechtstreeks bij de gemeente. Om te zien hoe je de aanvraag doet, klik je op de link: <![CDATA[<a href="https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering">https://www.werk.nl/portal/page/portal/werk_nl/werknemer/uitkering-aanvragen/bijstandsuitkering</a>]]>.</item>
+        <item>Daarna log je in met je DigiD. Hoe je een DigiD aanvraagt, vind je onder het kopje DigiD in deze app. Doorloop na het inloggen alle stappen. Je krijgt dan te zien hoe je de aanvraag doet en je wordt automatisch bij UWV ingeschreven en geregistreerd als werkzoekende. Het bewijs van je inschrijving vind je in je Werkmap op werk.nl. Op de pagina \'Bijstandsuitkering aanvragen\' vraag je via een digitaal formulier een bijstandsuitkering aan.</item>
         <item><![CDATA[<b>Te verzamelen gegevens</b>]]></item>
         <item>Verzamel voor het invullen van uw aanvraag de volgende gegevens:</item>
         <item>1.Je burgerservicenummer (BSN)</item>
@@ -82,7 +84,7 @@
         <item>• de waarde van je bezittingen en waardepapieren, de hoogte van je schulden en je bankrekeningen.</item>
         <item><![CDATA[<b>Vervolg aanvraag bijstandsuitkering</b>]]></item>
         <item>Aan het einde van de aanvraag staat wat er na het opsturen van de aanvraag van je wordt verwacht. Dit is afhankelijk van de afspraken met de gemeente.</item>
-        <item>Nadat je het digitale formulier helemaal hebt verstuurd, krijg je van UWV een e-mail met een bevestiging dat wij de aanvraag hebben ontvangen. In de e-mail staat een lijst met bewijsstukken die je moet meenemen als je wordt uitgenodigd voor een gesprek, bijvoorbeeld een geldig legitimatiebewijs (paspoort of identiteitskaart, geen rijbewijs).</item>
+        <item>Nadat je het digitale formulier helemaal hebt verstuurd, krijg je van UWV een e-mail met een bevestiging dat wij de aanvraag hebben ontvangen. In de e-mail staat een lijst met bewijsstukken die je moet meenemen als je wordt uitgenodigd voor een gesprek, bijvoorbeeld een geldig legitimatiebewijs (ID-kaart, geen rijbewijs).</item>
     </string-array>
     <string-array name="section_details_3">
         <item>Alle Nederlandse banken stellen als voorwaarde dat je in Nederland woont en staat ingeschreven bij de Gemeentelijke Basis Administratie (GBA). Ook moet je een Nederlands identiteitsbewijs of een verblijfsvergunning hebben. Heb je geen verblijfadres in Nederland of sta je niet ingeschreven bij de gemeente? Dan kun je dus geen Nederlandse bankrekening openen. Hetzelfde geldt wanneer je geen geldige identiteitspapieren hebt.</item>
@@ -99,7 +101,28 @@
         <item><![CDATA[<b>Vergelijkingssite collectieve zorgverzekering</b>]]></item>
         <item>Een vergelijking tussen verschillende zorgverzekeraars is te vinden op de volgende pagina: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
     </string-array>
-    <string-array name="section_details_5"><item>TODO section details</item></string-array>
+    <string-array name="section_details_5">
+        <item>Met een OV-chipkaart op zak hoef je niet meer na te denken over strippenkaarten of metrotickets. Je laadt de kaart op met een saldo in euro\'s of je zet er een reisproduct op, zoals een enkele reis, een maandabonnement voor woon-werkverkeer of een trajectkaart.</item>
+        <item>Er zijn twee verschillende kaarten: een persoonlijke OV-chipkaart en een anonieme OV-chipkaart. Een OV-chipkaart is altijd herkenbaar aan het roze logo. De chip in de OV-chipkaart is niet zichtbaar. Op jouw persoonlijke OV-chipkaart staan je pasfoto, geboortedatum, de geldigheidsdatum en het OV-chipkaartnummer. Op een anonieme OV-chipkaart staat (vaak) het logo van de vervoerder en de geldigheidsdatum.</item>
+        <item><![CDATA[<b>Welke kaart past bij jou?</b>]]></item>
+        <item>Een anonieme OV-chipkaart is niet aan een persoon verbonden. Je kunt dus geen abonnementen op de kaart zetten. De anonieme kaart kun je wel met meer mensen gebruiken, maar je kunt er dan niet allemaal tegelijkertijd mee reizen. Je reist bijvoorbeeld zelf met de anonieme kaart met de trein naar Amsterdam en je zoon gebruikt dezelfde kaart een dag later om met de bus naar voetbal te gaan. Een anonieme OV-chipkaart is erg handig voor een gezin.</item>
+        <item>Als je vaak met het openbaar vervoer reist, dan is de persoonlijke OV-chipkaart handig. Je kunt er verschillende reisproducten tegelijk op zetten en ook gebruikmaken van abonnementen en leeftijdskorting. Alles op één kaart.</item>
+        <item><![CDATA[<b>Hoe kan ik een OV-chipkaart aanvragen en wat kost het?</b>]]></item>
+        <item>De adviesprijs voor een anonieme OV-chipkaart is € 7,50. De kaart is vijf jaar geldig. Een anonieme OV-chipkaart koop je:</item>
+        <item>• bij kaartautomaten op stations</item>
+        <item>• bij diverse tabakspeciaalzaken (zoals Primera)</item>
+        <item>• bij diverse supermarkten</item>
+        <item>• bij sommige Bruna\'s</item>
+        <item>• aan de balie van een vervoerder (hiervoor kan een toeslag worden gevraagd)</item>
+        <item>• online op: <![CDATA[<a href="http://www.ovshop.nl/">http://www.ovshop.nl/</a>]]></item>
+        <item>Een persoonlijke OV-chipkaart vraag je eenvoudig online aan op: <![CDATA[<a href="https://www.ov-chipkaart.nl/ov-chip-kopen/persoonlijke-ov-chipkaart-aanvragen.htm">https://www.ov-chipkaart.nl/ov-chip-kopen/persoonlijke-ov-chipkaart-aanvragen.htm</a>]]>. De persoonlijke OV-chipkaart kost € 7,50. Een persoonlijke OV-chipkaart is ook vijf jaar geldig.</item>
+        <item>Kun je of wil je je persoonlijke OV-chipkaart niet online aanvragen? Vraag dan bij een balie van een vervoerder een papieren aanvraagformulier voor een persoonlijke OV-chipkaart. Je kunt het formulier ook aanvragen via het contactformulier of via Klantenservice OV-chipkaart op 0900-0980 (dit is geen gratis nummer). Het verwerken van het formulier zorgt voor extra handelingen, zoals het invoeren van je gegevens in de systemen. Daarom betaal je bij een papieren aanvraagformulier een toeslag van €3.</item>
+        <item><![CDATA[<b>Wat heb ik nodig om een OV-chipkaart aan te vragen?</b>]]></item>
+        <item>Voor een anonieme OV-chipkaart heb je geen documenten nodig. Je kunt hem gewoon kopen in diverse winkels. Bestel je hem online, dan moet je met iDEAL kunnen betalen, hieronder staat wat daarvoor nodig is.</item>
+        <item>Voor een persoonlijke OV-chipkaart heb je nodig:</item>
+        <item>• een pasfoto in jpg, max. 5 MB</item>
+        <item>• een Nederlandse bankrekening met Internetbankieren of Mobiel Bankieren, want je betaalt hem met iDEAL</item>
+    </string-array>
     <string-array name="section_details_6"><item>TODO section details</item></string-array>
     <string-array name="section_details_7"><item>TODO section details</item></string-array>
     <string-array name="section_details_8"><item>TODO section details</item></string-array>
@@ -111,4 +134,5 @@
     <string name="filetype_4">Activeringsbrief DigiD</string>
     <string name="filetype_5">Huurovereenkomst</string>
     <string name="filetype_6">Bankafschrift</string>
+    <string name="filetype_7">Pasfoto</string>
 </resources>

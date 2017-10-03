@@ -20,8 +20,8 @@ public class SectionsProvider {
         output.add(new SectionModel(2, context.getString(getNameResourceId(2))));
         output.add(new SectionModel(3, context.getString(getNameResourceId(3))));
         output.add(new SectionModel(4, context.getString(getNameResourceId(4))));
+        output.add(new SectionModel(5, context.getString(getNameResourceId(5))));
         // Disabled for now as no real content is available for it
-//        output.add(new SectionModel(5, context.getString(getNameResourceId(5))));
 //        output.add(new SectionModel(6, context.getString(getNameResourceId(6))));
 //        output.add(new SectionModel(7, context.getString(getNameResourceId(7))));
 //        output.add(new SectionModel(8, context.getString(getNameResourceId(8))));
@@ -135,6 +135,7 @@ public class SectionsProvider {
                 output.add(FileType.ALIEN_DOCUMENT);
                 break;
             case 5:
+                output.add(FileType.PASSPORT_PHOTO);
             case 6:
             case 7:
             case 8:
