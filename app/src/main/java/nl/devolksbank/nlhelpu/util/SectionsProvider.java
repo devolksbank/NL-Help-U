@@ -21,11 +21,6 @@ public class SectionsProvider {
         output.add(new SectionModel(3, context.getString(getNameResourceId(3))));
         output.add(new SectionModel(4, context.getString(getNameResourceId(4))));
         output.add(new SectionModel(5, context.getString(getNameResourceId(5))));
-        // Disabled for now as no real content is available for it
-//        output.add(new SectionModel(6, context.getString(getNameResourceId(6))));
-//        output.add(new SectionModel(7, context.getString(getNameResourceId(7))));
-//        output.add(new SectionModel(8, context.getString(getNameResourceId(8))));
-//        output.add(new SectionModel(9, context.getString(getNameResourceId(9))));
 
         return output;
     }
@@ -42,14 +37,6 @@ public class SectionsProvider {
                 return R.string.section_4;
             case 5:
                 return R.string.section_5;
-            case 6:
-                return R.string.section_6;
-            case 7:
-                return R.string.section_7;
-            case 8:
-                return R.string.section_8;
-            case 9:
-                return R.string.section_9;
             default:
                 return -1;
         }
@@ -67,14 +54,6 @@ public class SectionsProvider {
                 return R.string.section_header_4;
             case 5:
                 return R.string.section_header_5;
-            case 6:
-                return R.string.section_header_6;
-            case 7:
-                return R.string.section_header_7;
-            case 8:
-                return R.string.section_header_8;
-            case 9:
-                return R.string.section_header_9;
             default:
                 return -1;
         }
@@ -92,14 +71,6 @@ public class SectionsProvider {
                 return R.array.section_details_4;
             case 5:
                 return R.array.section_details_5;
-            case 6:
-                return R.array.section_details_6;
-            case 7:
-                return R.array.section_details_7;
-            case 8:
-                return R.array.section_details_8;
-            case 9:
-                return R.array.section_details_9;
             default:
                 return -1;
         }
@@ -137,11 +108,6 @@ public class SectionsProvider {
             case 5:
                 output.add(FileType.PASSPORT_PHOTO);
                 break;
-            case 6:
-            case 7:
-            case 8:
-            case 9:
-                // TODO
             default:
                 break;
         }

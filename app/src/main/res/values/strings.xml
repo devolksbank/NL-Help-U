@@ -37,20 +37,12 @@
     <string name="section_3">Bank account</string>
     <string name="section_4">Health insurance</string>
     <string name="section_5">OV-chipkaart (public transport chip card)</string>
-    <string name="section_6">Health allowance</string>
-    <string name="section_7">Child budget</string>
-    <string name="section_8">Child support</string>
-    <string name="section_9">Integration course</string>
     <!-- section-headers -->
     <string name="section_header_1">DigiD is your digital ID for government services on the internet. You need it for almost everything, such as applying for a rent-rebate or social welfare payment.</string>
     <string name="section_header_2">You can request social welfare payments when you have insufficient income to live.</string>
     <string name="section_header_3">If you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch payments account. It can be used to get your salary or benefits paid on and you can pay your expenditures with it.</string>
     <string name="section_header_4">If you are living or working in the Netherlands you are legally obliged to have a basic insurance. This basic insurance covers the health care for example of a doctor, hospital or pharmacy.</string>
     <string name="section_header_5">The OV-chipkaart is a card you can use to pay for public transport in the Netherlands. If you have an OV-chipkaart you don\'t have to buy separate tickets for traveling by bus, train or subway.</string>
-    <string name="section_header_6">Section header: TODO...</string>
-    <string name="section_header_7">Section header: TODO...</string>
-    <string name="section_header_8">Section header: TODO...</string>
-    <string name="section_header_9">Section header: TODO...</string>
     <!-- section-details -->
     <string-array name="section_details_1">
         <item>"Are you going to a town hall or to another public institution's office? In many cases, you must show your passport or driver's license. That's how the government knows who you are. On the internet you can digitally identify yourself by using your DigiD. With your DigiD you can log in to government and healthcare websites."</item>
@@ -124,9 +116,6 @@
         <item>• a passport photo in jpg, max. 5 MB</item>
         <item>• A bank account in the Netherlands with Internet Banking or Mobile Banking, because payment is done by iDEAL</item>
     </string-array>
-    <string-array name="section_details_7"><item>TODO section details</item></string-array>
-    <string-array name="section_details_8"><item>TODO section details</item></string-array>
-    <string-array name="section_details_9"><item>TODO section details</item></string-array>
     <!-- file types -->
     <string name="filetype_1">ID card</string>
     <string name="filetype_2">Social Security Number letter</string>

@@ -17,9 +17,17 @@ android {
         applicationId "nl.devolksbank.nlhelpu"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 7
-        versionName "1.0.6"
+        versionCode 8
+        versionName "1.1.0"
+        // <major>.<minor>.<patch>
+        // <major>: major changes to the app (new layout for example)
+        // <minor>: new features or content sections
+        // <patch>: textual changes or fixes on existing features
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    // Disable missing translations, to allow a partially translated language to default to the default language
+    lintOptions {
+        disable 'MissingTranslation'
     }
     buildTypes {
         debug {

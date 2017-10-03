@@ -37,21 +37,11 @@
     <string name="section_2">التعويضات</string>
     <string name="section_3">الحساب البنكي</string>
     <string name="section_4">التأمين الصحي</string>
-    <string name="section_5">اعانة الإيجار</string>
-    <string name="section_6">اعانة التأمين الصحي</string>
-    <string name="section_7">ميزانية الطفل</string>
-    <string name="section_8">إعانة الطفل</string>
-    <string name="section_9">دورة المواطنة</string>
     <!-- section-headers -->
     <string name="section_header_1">DigiD هو هويتك للخدمات الحكومية على شبكة الإنترنت. أنت تحتاج إليها في كل الأشياء تقريبا، مثل طلب إعانة الإيجار أو تعويضات.</string>
     <string name="section_header_2">يمكنك تقديم طلب الحصول على التعويضات  إذا لم يكن لديك ما يكفي من الدخل أو الأصول للعيش وليس لك الحق في الحصول على تعويضات اجتماعية أخرى.</string>
     <string name="section_header_3">Aإذا كنت تقيم لمدة طويلة في هولندا، فمن العملي أن يكون لديك حساب بنكي ببنك هولندي. يمكنك ايداع راتبك/ تعويضاتك ودفع المصروفات.</string>
     <string name="section_header_4">إذا كنت تعيش أو تعمل في هولندا، فإنك مطالب قانونيا بالحصول على تأمين أساسي. يغطي هذا التأمين الأساسي الرعاية الثابتة، على سبيل المثال، طبيب عام أو مستشفى أو صيدلية.</string>
-    <string name="section_header_5">TODO: اعانة الإيجار</string>
-    <string name="section_header_6">TODO: اعانة التأمين الصحي</string>
-    <string name="section_header_7">TODO: ميزانية الطفل</string>
-    <string name="section_header_8">TODO: إعانة الطفل</string>
-    <string name="section_header_9">TODO: دورة المواطنة</string>
     <!-- section-details -->
     <string-array name="section_details_1">
         <item>إذا ذهبت إلى البلدية، أو إلى شباك مؤسسة حكومية أخرى؟ فيجب عليك أن تُقدم في كثير من الحالات، بطاقة الهوية أو جواز السفر أو رخصة السياقة. وبهذا تتعرف الجهات الحكومية على هويتك. يمكنك تقديم هويتك على شبكة الانترنت عن طريق تسجيل الدخول بواسطة DigiD الخاص بك. يمكنك بواسطة DigiD الخاص بك تسجيل الدخول إلى مواقع الحكومة والرعاية. تتكون DigiD من اسم المستخدم وكلمة المرور التي تختارهما بنفسك.</item>
@@ -96,11 +86,6 @@
         <item><![CDATA[<b>موقع مقارنة التأمين الصحي الجماعي</b>]]></item>
         <item><![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]>للمقارنة بين شركات التأمين المختلفة يمكن الاطلاع على الصفحة التالية:</item>
     </string-array>
-    <string-array name="section_details_5"><item>TODO section details</item></string-array>
-    <string-array name="section_details_6"><item>TODO section details</item></string-array>
-    <string-array name="section_details_7"><item>TODO section details</item></string-array>
-    <string-array name="section_details_8"><item>TODO section details</item></string-array>
-    <string-array name="section_details_9"><item>TODO section details</item></string-array>
     <!-- file types -->
     <string name="filetype_1">بطاقة الهوية</string>
     <string name="filetype_2">سوسيال سيكوريتيونمبر الرسالة</string><!-- google translated -->
