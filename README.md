@@ -2,6 +2,8 @@
 
 NL Help U is an app to help asylum seekers who are permitted to stay in The Netherlands to find their way in the Dutch society.
 
+For more information, see: https://www.nlhelpu.nl/
+
 ## Where can I try the app?
 
 The app is published in the Android Play Store: https://play.google.com/store/apps/details?id=nl.devolksbank.nlhelpu
