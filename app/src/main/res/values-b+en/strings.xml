@@ -4,11 +4,11 @@
     <string name="application_name">NLHelpU</string>
     <string name="main_section_header">Services</string>
     <string name="about_header">About</string>
-    <string name="main_activity_info_section">This app makes life more easy for requesting a range of documents needed by you when you just moved over to the Netherlands. </string>
+    <string name="main_activity_info_section">This app makes life easier when you have just moved to the Netherlands. It helps you apply for public services and archive a range of documents needed when you send in the applications. </string>
     <string name="about_activity_content">You can collect necessary documents, categorize and forward them to government or companies. We will you help by identifying which documents are necessary for every category. This app has been created by employees of \'de Volksbank\' as part of an assignment in the \'KEI-program\' 2017.\n\nThis app uses UCrop (https://github.com/Yalantis/uCrop)</string>
     <string name="button_hide_splash_screen">Start the app</string>
     <string name="button_open_splash_screen">Open splashscreen</string>
-    <string name="splash_screen_info">NLHelpU is an app you can use to find your way in the Dutch society. It allows you to manage the required documents for various services and share them with your mentor.</string>
+    <string name="splash_screen_info">NLHelpU is an app you can use to find your way in the Dutch society. It allows you to manage the required documents for various services and share them with your contact person at Vluchtelingenwerk.</string>
     <!-- Documenten -->
     <string name="button_add_new_document_page">Add new page</string>
     <string name="button_mail_all_available_document_pages">Mail all available documents</string>
@@ -24,13 +24,13 @@
     <string name="camera_permissions_error">Permissions for camera required for adding a new page</string>
     <string name="mail_permissions_error">Sending mails is not possible without the external storage permission</string>
     <!-- Begeleider -->
-    <string name="support_title">Assistant</string>
+    <string name="support_title">My contact person</string>
     <string name="support_input_name">Name</string>
     <string name="support_input_email">Email</string>
     <string name="support_input_phone">Phonenumber</string>
     <string name="support_input_notes">Notes</string>
-    <string name="support_header">Use this page for keeping track of the contact details of your assistant.</string>
-    <string name="button_main_activity_assistant">My assistant</string>
+    <string name="support_header">Use this page for keeping track of the contact details of your contact person at Vluchtelingenwerk.</string>
+    <string name="button_main_activity_assistant">My contact person</string>
     <!-- sections -->
     <string name="section_1">DigiD</string>
     <string name="section_2">Social welfare payments</string>
