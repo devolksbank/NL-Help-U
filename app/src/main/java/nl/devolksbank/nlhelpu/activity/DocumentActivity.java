@@ -4,8 +4,10 @@ import android.Manifest;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.hardware.Camera;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -173,7 +175,9 @@ public class DocumentActivity extends AppCompatActivity {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
 
         // Ensure that there's a camera activity to handle the intent
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
+        PackageManager pm = getApplicationContext().getPackageManager();
+
+        if (pm.hasSystemFeature(PackageManager.FEATURE_CAMERA_ANY)) {
             Log.i("DocumentActivity", "Creating the file where the picture should go");
 
             // Create the File where the photo should go
@@ -202,7 +206,6 @@ public class DocumentActivity extends AppCompatActivity {
             }
         } else {
             Log.i("DocumentActivity", "No camera app available?!");
-            // TODO: present toast?
         }
         Log.i("DocumentActivity", "Done dispatching taking picture intent");
     }
