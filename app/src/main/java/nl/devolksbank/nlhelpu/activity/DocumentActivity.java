@@ -287,6 +287,8 @@ public class DocumentActivity extends AppCompatActivity {
                     Log.i("DocumentActivity", "Done writing to stream");
                 } catch (Exception e) {
                     Log.e("DocumentActivity", "Unable to save image: " + e.getLocalizedMessage());
+                    Toast.makeText(getApplicationContext(), getString(R.string.camera_general_error), Toast.LENGTH_LONG).show();
+                    return;
                 }
             }
 
