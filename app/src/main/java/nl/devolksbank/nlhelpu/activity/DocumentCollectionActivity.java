@@ -277,9 +277,7 @@ public class DocumentCollectionActivity extends AppCompatActivity {
             try {
                 // First copy the file to external storage as otherwise it is not accessible for other applications handling the intent
                 File thisFile = new File(getFilesDir(), documentPart.getFileLocation());
-                Log.d("DocCollectionActivity", "File location: " + thisFile);
                 File thisFileAttachment = new File(Environment.getExternalStorageDirectory(), documentPart.getFileLocation());
-                Log.d("DocCollectionActivity", "Copy-to-location: " + thisFileAttachment);
                 copyFile(thisFile, thisFileAttachment);
                 Log.d("DocCollectionActivity", "File copied");
                 Uri thisUri = FileProvider.getUriForFile(getApplicationContext(), getApplicationContext().getPackageName() + ".util.GenericFileProvider", thisFileAttachment);
