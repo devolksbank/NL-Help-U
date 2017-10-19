@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -170,6 +171,7 @@ public class DocumentActivity extends AppCompatActivity {
     private void dispatchTakePictureIntent() {
         Log.i("DocumentActivity", "Dispatching take picture intent");
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+
         // Ensure that there's a camera activity to handle the intent
         if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
             Log.i("DocumentActivity", "Creating the file where the picture should go");
@@ -185,13 +187,22 @@ public class DocumentActivity extends AppCompatActivity {
             // Continue only if the File was successfully created
             if (photoFile != null) {
                 Log.i("DocumentActivity", "File created succesfully");
-                Uri photoURI = FileProvider.getUriForFile(getApplicationContext(), getApplicationContext().getPackageName() + ".fileprovider", photoFile);
-                Log.i("DocumentActivity", "File stored");
-                takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+
+                if (doUseImageDataFromIntent()) {
+                    Log.i("DocumentActivity", "Using Uri.fromFile()");
+                } else {
+                    Log.i("DocumentActivity", "Using FileProvider");
+                    Uri photoURI = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".util.GenericFileProvider", photoFile);
+                    Log.i("DocumentActivity", "File stored");
+                    takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                }
                 Log.i("DocumentActivity", "Starting take picture intent");
                 startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
                 Log.i("DocumentActivity", "Done with take picture intent");
             }
+        } else {
+            Log.i("DocumentActivity", "No camera app available?!");
+            // TODO: present toast?
         }
         Log.i("DocumentActivity", "Done dispatching taking picture intent");
     }
@@ -235,11 +246,46 @@ public class DocumentActivity extends AppCompatActivity {
         Log.i("DocumentActivity", "Done creating thumbnail");
     }
 
+    private boolean doUseImageDataFromIntent() {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
+            Log.i("DocumentActivity", "Do not use image data directly from the intent");
+            return false;
+        } else {
+            Log.i("DocumentActivity", "Use image data directly from the intent");
+            // In Android4.4 and lower, the usage of a file path for taking pictures does not work properly
+            return true;
+        }
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         Log.i("DocumentActivity", "On activity result");
+        Log.i("DocumentActivity", "RequestCode[" + requestCode + "], resultCode[" + resultCode + "], hasIntentData[" + ((null != data) ? "yes" : "no") + "]");
         if (REQUEST_IMAGE_CAPTURE == requestCode && RESULT_OK == resultCode) {
             Log.i("DocumentActivity", "Result OK from image capture");
+
+            if (doUseImageDataFromIntent()) {
+                Log.i("DocumentActivity", "Fetching the data from the intent");
+                // Fetch the data from the intent and write it to the image location
+                Bundle extras = data.getExtras();
+
+                Log.i("DocumentActivity", "Fetch the data");
+                // Get the returned image from extra
+                Bitmap bmp = (Bitmap) extras.get("data");
+
+                try {
+                    Log.i("DocumentActivity", "Writing to output stream");
+                    FileOutputStream out = new FileOutputStream(mCurrentPhotoPath);
+
+                    Log.i("DocumentActivity", "Compressing output");
+                    bmp.compress(Bitmap.CompressFormat.PNG, 100, out);
+                    out.flush();
+                    out.close();
+                    Log.i("DocumentActivity", "Done writing to stream");
+                } catch (Exception e) {
+                    Log.e("DocumentActivity", "Unable to save image: " + e.getLocalizedMessage());
+                }
+            }
 
             resizePictureToThumbnail(mCurrentPhotoPath);
 

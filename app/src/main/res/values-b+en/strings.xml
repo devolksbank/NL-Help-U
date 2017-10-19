@@ -23,6 +23,7 @@
     <string name="undo_document_part_delete_button_details">Undo deletion</string>
     <string name="camera_permissions_error">Permissions for camera required for adding a new page</string>
     <string name="mail_permissions_error">Sending mails is not possible without the external storage permission</string>
+    <string name="mail_handler_error">No email app found on the device to send the documents</string>
     <!-- Begeleider -->
     <string name="support_title">My contact person</string>
     <string name="support_input_name">Name</string>

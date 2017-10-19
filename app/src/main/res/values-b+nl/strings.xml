@@ -23,6 +23,7 @@
     <string name="undo_document_part_delete_button_details">Ongedaan maken</string>
     <string name="camera_permissions_error">Zonder camera permissies is het niet mogelijk een nieuwe pagina toe te voegen</string>
     <string name="mail_permissions_error">Zonder externe opslag permissies is het niet mogelijk de documenten te versturen via mail</string>
+    <string name="mail_handler_error">Geen email app gevonden om de documenten te verzenden</string>
     <!-- Begeleider -->
     <string name="support_title">Mijn contactpersoon</string>
     <string name="support_input_name">Naam</string>
