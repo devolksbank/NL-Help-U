@@ -17,8 +17,8 @@ android {
         applicationId "nl.devolksbank.nlhelpu"
         minSdkVersion 16
         targetSdkVersion 26
-        versionCode 9
-        versionName "1.1.1"
+        versionCode 10
+        versionName "1.1.2"
         // <major>.<minor>.<patch>
         // <major>: major changes to the app (new layout for example)
         // <minor>: new features or content sections
