@@ -12,7 +12,8 @@ import nl.devolksbank.nlhelpu.R;
 
 public class AboutActivity extends AppCompatActivity {
 
-    @Override
+    public static final String EMAIL = "info@nlhelpu.nl";
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
@@ -29,6 +30,21 @@ public class AboutActivity extends AppCompatActivity {
                 Log.d("AboutActivity", "Open splashscreen");
                 Intent i = new Intent(getApplicationContext(), SplashActivity.class);
                 startActivity(i);
+            }
+        });
+
+        final Button button2 = (Button) findViewById(R.id.buttonFeedback);
+        button2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                //Start send email to specific address activity
+                sendMail();
+            }
+
+            private void sendMail() {
+                Log.d("AboutActivity", "Sending mail");
+                Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                emailIntent.setType("text/html");
+                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{EMAIL});
             }
         });
     }
