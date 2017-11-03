@@ -1,16 +1,16 @@
 package nl.devolksbank.nlhelpu.activity;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
+import android.support.v4.app.ShareCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import nl.devolksbank.nlhelpu.R;
-import nl.devolksbank.nlhelpu.util.IntentUtil;
 
 public class AboutActivity extends AppCompatActivity {
 
@@ -36,6 +36,8 @@ public class AboutActivity extends AppCompatActivity {
             }
         });
 
+        final Activity thisActivity = this;
+
         final Button button2 = (Button) findViewById(R.id.buttonFeedback);
         button2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -45,15 +47,15 @@ public class AboutActivity extends AppCompatActivity {
 
             private void sendMail() {
                 Log.d("AboutActivity", "Sending mail");
-                Intent emailIntent = new Intent(Intent.ACTION_SEND);
-                if (!IntentUtil.isIntentHandlerPresent(emailIntent, getApplicationContext())) {
-                    Log.w("DocCollectionActivity", "No app present for handling an email intent");
-                    Toast.makeText(getApplicationContext(), getString(R.string.mail_handler_error), Toast.LENGTH_LONG).show();
-                    return;
-                }
-                emailIntent.setType("text/html");
-                emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{EMAIL});
-                startActivity(Intent.createChooser(emailIntent, getString(R.string.mail_chooser_hint)));
+
+                ShareCompat.IntentBuilder.from(thisActivity)
+                        .setType("message/rfc822")
+                        .addEmailTo(EMAIL)
+                        //.setSubject(subject)
+                        //.setText(body)
+                        //.setHtmlText(body) //If you are using HTML in your body text
+                        .setChooserTitle(getString(R.string.mail_chooser_hint))
+                        .startChooser();
             }
         });
     }

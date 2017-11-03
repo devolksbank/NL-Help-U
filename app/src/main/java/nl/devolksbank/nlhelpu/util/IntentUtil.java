@@ -22,7 +22,7 @@ public class IntentUtil {
             return true;
         } else {
             Log.d("DocCollectionActivity", "Intent handler is not present");
-            return false;
+            return true; // temporarily disable this check
         }
     }
 }
