@@ -13,13 +13,20 @@
         android:backgroundTint="@color/colorButtons"
         android:text="@string/button_open_splash_screen" />
 
+    <Button
+        android:id="@+id/buttonFeedback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorButtons"
+        android:text="@string/button_feedback" />
+
     <TextView
         android:id="@+id/textAbout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
         android:text="TODO-value"
-        tools:layout_editor_absoluteY="8dp"
-        tools:layout_editor_absoluteX="8dp" />
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
 
 </LinearLayout>

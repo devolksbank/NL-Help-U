@@ -36,6 +36,7 @@ import nl.devolksbank.nlhelpu.model.FileType;
 import nl.devolksbank.nlhelpu.model.SectionModel;
 import nl.devolksbank.nlhelpu.util.BegeleiderDataSource;
 import nl.devolksbank.nlhelpu.util.DocumentPartsDataSource;
+import nl.devolksbank.nlhelpu.util.IntentUtil;
 import nl.devolksbank.nlhelpu.util.SectionsProvider;
 import nl.devolksbank.nlhelpu.viewadapter.DocumentCollectionViewAdapter;
 
@@ -234,24 +235,13 @@ public class DocumentCollectionActivity extends AppCompatActivity {
         }
     }
 
-    private boolean isIntentHandlerPresent(final Intent intent) {
-        Log.d("DocCollectionActivity", "Checking whether an intent handler is present");
-        PackageManager manager = getApplicationContext().getPackageManager();
-        List<ResolveInfo> resolveInfoItems = manager.queryIntentActivities(intent, 0);
-        if (resolveInfoItems.size() > 0) {
-            Log.d("DocCollectionActivity", "Intent handler is present");
-            return true;
-        } else {
-            Log.d("DocCollectionActivity", "Intent handler is not present");
-            return false;
-        }
-    }
+
 
     private void sendMail() {
         Log.d("DocCollectionActivity", "Sending mail");
 
         Intent emailIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
-        if (!isIntentHandlerPresent(emailIntent)) {
+        if (!IntentUtil.isIntentHandlerPresent(emailIntent, getApplicationContext())) {
             Log.w("DocCollectionActivity", "No app present for handling an email intent");
             Toast.makeText(getApplicationContext(), getString(R.string.mail_handler_error), Toast.LENGTH_LONG).show();
             return;
