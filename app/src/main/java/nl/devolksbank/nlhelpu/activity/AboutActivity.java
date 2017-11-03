@@ -10,6 +10,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import nl.devolksbank.nlhelpu.R;
+import nl.devolksbank.nlhelpu.util.IntentUtil;
 
 public class AboutActivity extends AppCompatActivity {
 
@@ -45,7 +46,7 @@ public class AboutActivity extends AppCompatActivity {
             private void sendMail() {
                 Log.d("AboutActivity", "Sending mail");
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
-                if (!isIntentHandlerPresent(emailIntent)) {
+                if (!IntentUtil.isIntentHandlerPresent(emailIntent, getApplicationContext())) {
                     Log.w("DocCollectionActivity", "No app present for handling an email intent");
                     Toast.makeText(getApplicationContext(), getString(R.string.mail_handler_error), Toast.LENGTH_LONG).show();
                     return;
