@@ -2,11 +2,16 @@ package nl.devolksbank.nlhelpu.activity;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.hardware.Camera;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
 import android.provider.MediaStore;
@@ -38,6 +43,10 @@ import nl.devolksbank.nlhelpu.viewadapter.DocumentPartCollectionViewAdapter;
 public class DocumentActivity extends AppCompatActivity {
 
     private static final int REQUEST_IMAGE_CAPTURE = 1;
+
+    private static final String SHARED_PREFERENCES_ID = "camera-temp-file-info";
+    private static final String FILE_NAME_CONTENT_ID = "camera_temp_file_name";
+    private static final String FILE_PATH_CONTENT_ID = "camera_temp_file_path";
 
     private String mCurrentPhotoPath;
     private String mCurrentPhotoFilename;
@@ -170,28 +179,32 @@ public class DocumentActivity extends AppCompatActivity {
     private void dispatchTakePictureIntent() {
         Log.i("DocumentActivity", "Dispatching take picture intent");
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        // Ensure that there's a camera activity to handle the intent
-        if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
-            Log.i("DocumentActivity", "Creating the file where the picture should go");
 
-            // Create the File where the photo should go
-            File photoFile = null;
-            try {
-                photoFile = createImageFile();
-            } catch (IOException ex) {
-                // Error occurred while creating the File
-                Log.e("DocumentActivity", "Unable to create file location to be stored:" + ex.getLocalizedMessage());
-            }
-            // Continue only if the File was successfully created
-            if (photoFile != null) {
-                Log.i("DocumentActivity", "File created succesfully");
-                Uri photoURI = FileProvider.getUriForFile(getApplicationContext(), getApplicationContext().getPackageName() + ".fileprovider", photoFile);
+        Log.i("DocumentActivity", "Creating the file where the picture should go");
+
+        // Create the File where the photo should go
+        File photoFile = null;
+        try {
+            photoFile = createImageFile();
+        } catch (IOException ex) {
+            // Error occurred while creating the File
+            Log.e("DocumentActivity", "Unable to create file location to be stored:" + ex.getLocalizedMessage());
+        }
+        // Continue only if the File was successfully created
+        if (photoFile != null) {
+            Log.i("DocumentActivity", "File created succesfully");
+
+            if (doUseImageDataFromIntent()) {
+                Log.i("DocumentActivity", "Using data from intent");
+            } else {
+                Log.i("DocumentActivity", "Using FileProvider");
+                Uri photoURI = FileProvider.getUriForFile(this, getApplicationContext().getPackageName() + ".util.GenericFileProvider", photoFile);
                 Log.i("DocumentActivity", "File stored");
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
-                Log.i("DocumentActivity", "Starting take picture intent");
-                startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
-                Log.i("DocumentActivity", "Done with take picture intent");
             }
+            Log.i("DocumentActivity", "Starting take picture intent");
+            startActivityForResult(takePictureIntent, REQUEST_TAKE_PHOTO);
+            Log.i("DocumentActivity", "Done with take picture intent");
         }
         Log.i("DocumentActivity", "Done dispatching taking picture intent");
     }
@@ -235,11 +248,57 @@ public class DocumentActivity extends AppCompatActivity {
         Log.i("DocumentActivity", "Done creating thumbnail");
     }
 
+    private boolean doUseImageDataFromIntent() {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.KITKAT) {
+            Log.i("DocumentActivity", "Do not use image data directly from the intent");
+            return false;
+        } else {
+            Log.i("DocumentActivity", "Use image data directly from the intent");
+            // In Android4.4 and lower, the usage of a file path for taking pictures does not work properly
+            return true;
+        }
+    }
+
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         Log.i("DocumentActivity", "On activity result");
+        Log.i("DocumentActivity", "RequestCode[" + requestCode + "], resultCode[" + resultCode + "], hasIntentData[" + ((null != data) ? "yes" : "no") + "]");
         if (REQUEST_IMAGE_CAPTURE == requestCode && RESULT_OK == resultCode) {
             Log.i("DocumentActivity", "Result OK from image capture");
+
+            // Fixed issue on local variables on intents getting forgotten when using the camera: https://stackoverflow.com/a/7179767
+            if (null == mCurrentPhotoPath) {
+                Log.i("DocumentActivity", "No mCurrentPhotoPath present (anymore), read it from shared preferences");
+                mCurrentPhotoPath = getTempValue(this, FILE_PATH_CONTENT_ID);
+                mCurrentPhotoFilename = getTempValue(this, FILE_NAME_CONTENT_ID);
+            }
+
+            if (doUseImageDataFromIntent()) {
+                Log.i("DocumentActivity", "Fetching the data from the intent");
+                // Fetch the data from the intent and write it to the image location
+                Bundle extras = data.getExtras();
+
+                Log.i("DocumentActivity", "Fetch the data");
+                // Get the returned image from extra
+                Bitmap bmp = (Bitmap) extras.get("data");
+
+                try {
+                    Log.i("DocumentActivity", "Writing to output stream");
+                    FileOutputStream out = new FileOutputStream(mCurrentPhotoPath);
+
+                    Log.i("DocumentActivity", "Compressing output");
+                    bmp.compress(Bitmap.CompressFormat.PNG, 100, out);
+                    out.flush();
+                    out.close();
+                    Log.i("DocumentActivity", "Done writing to stream");
+                } catch (Exception e) {
+                    Log.e("DocumentActivity", "Unable to save image: " + e.getLocalizedMessage());
+                    Toast.makeText(getApplicationContext(), getString(R.string.camera_general_error), Toast.LENGTH_LONG).show();
+                    return;
+                }
+            } else {
+                Log.i("DocumentActivity", "Not using data directly from the intent -> use fileprovider");
+            }
 
             resizePictureToThumbnail(mCurrentPhotoPath);
 
@@ -264,7 +323,26 @@ public class DocumentActivity extends AppCompatActivity {
         } else {
             Log.i("DocumentActivity", "Result NOK: (resultCode=" + resultCode + ", requestCode=" + requestCode + ")");
         }
+        clearTempValue(this, FILE_NAME_CONTENT_ID);
+        clearTempValue(this, FILE_PATH_CONTENT_ID);
         Log.i("DocumentActivity", "Done with on activity result");
+    }
+
+    private static String getTempValue(Context context, final String key) {
+        SharedPreferences prefs = context.getSharedPreferences(SHARED_PREFERENCES_ID, MODE_PRIVATE);
+        return prefs.getString(key, null);
+    }
+
+    private static void clearTempValue(Context context, final String key) {
+        SharedPreferences.Editor editor = context.getSharedPreferences(SHARED_PREFERENCES_ID, MODE_PRIVATE).edit();
+        editor.remove(key);
+        editor.commit();
+    }
+
+    private static void saveTempValue(Context context, final String key, final String value) {
+        SharedPreferences.Editor editor = context.getSharedPreferences(SHARED_PREFERENCES_ID, MODE_PRIVATE).edit();
+        editor.putString(key, value);
+        editor.commit();
     }
 
     /**
@@ -284,6 +362,8 @@ public class DocumentActivity extends AppCompatActivity {
 
         mCurrentPhotoPath = image.getAbsolutePath();
         mCurrentPhotoFilename = imageFileName;
+        saveTempValue(this, FILE_PATH_CONTENT_ID, mCurrentPhotoPath);
+        saveTempValue(this, FILE_NAME_CONTENT_ID, mCurrentPhotoFilename);
         return image;
     }
 
