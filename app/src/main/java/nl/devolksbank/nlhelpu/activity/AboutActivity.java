@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import nl.devolksbank.nlhelpu.R;
 
@@ -14,6 +15,7 @@ public class AboutActivity extends AppCompatActivity {
 
     public static final String EMAIL = "info@nlhelpu.nl";
 
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
@@ -43,8 +45,14 @@ public class AboutActivity extends AppCompatActivity {
             private void sendMail() {
                 Log.d("AboutActivity", "Sending mail");
                 Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                if (!isIntentHandlerPresent(emailIntent)) {
+                    Log.w("DocCollectionActivity", "No app present for handling an email intent");
+                    Toast.makeText(getApplicationContext(), getString(R.string.mail_handler_error), Toast.LENGTH_LONG).show();
+                    return;
+                }
                 emailIntent.setType("text/html");
                 emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{EMAIL});
+                startActivity(Intent.createChooser(emailIntent, getString(R.string.mail_chooser_hint)));
             }
         });
     }
