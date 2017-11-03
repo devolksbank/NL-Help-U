@@ -18,7 +18,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 26
         versionCode 10
-        versionName "1.1.2"
+        versionName "1.2.0"
         // <major>.<minor>.<patch>
         // <major>: major changes to the app (new layout for example)
         // <minor>: new features or content sections
