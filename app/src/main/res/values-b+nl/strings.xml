@@ -5,9 +5,10 @@
     <string name="main_section_header">Onderwerpen</string>
     <string name="about_header">Over de app</string>
     <string name="main_activity_info_section">Deze app maakt het je makkelijk om allerlei zaken aan te vragen, die je nodig hebt als je net in Nederland woont. Ook bewaart het de documenten die je nodig hebt om de aanvragen te doen.</string>
-    <string name="about_activity_content">Je kunt hier documenten verzamelen, ordenen en doorsturen naar bedrijven. We helpen je ook door aan te geven welke documenten je nodig hebt voor elke categorie. Deze app is gemaakt door medewerkers van \'de Volksbank\' als onderdeel van het \'KEI-programma\' 2017.\n\nDeze app maakt gebruik van UCrop (https://github.com/Yalantis/uCrop)</string>
+    <string name="about_activity_content">Je kunt hier documenten verzamelen, ordenen en doorsturen naar bedrijven. We helpen je ook door aan te geven welke documenten je nodig hebt voor elke categorie. \n\nDeze app is gemaakt door medewerkers van \'de Volksbank\' als onderdeel van het \'KEI-programma\' 2017. \n\nWil je graag een bijdrage leveren aan deze app? Ga dan naar https://github.com/devolksbank/NL-Help-U. Of neem contact op met de ontwikkelaars via de contactknop. \n\nDeze app maakt gebruik van UCrop (https://github.com/Yalantis/uCrop)</string>
     <string name="button_hide_splash_screen">Start de app</string>
     <string name="button_open_splash_screen">Open splashscreen</string>
+    <string name="button_feedback">Contact en feedback</string>
     <string name="splash_screen_info">NLHelpU is een app waarmee je als statushouder geholpen wordt om de weg binnen de Nederlandse samenleving te vinden. Het biedt de mogelijkheid om de belangrijkste documenten, nodig voor diverse instanties, te delen met jouw contactpersoon van Vluchtelingenwerk. Hiermee wordt het eenvoudiger om aanvragen voor bijvoorbeeld een DigiD of bankrekening te regelen.</string>
     <!-- Documenten -->
     <string name="button_add_new_document_page">Nieuwe pagina toevoegen</string>
@@ -22,7 +23,9 @@
     <string name="undo_document_part_delete_button">UNDO</string>
     <string name="undo_document_part_delete_button_details">Ongedaan maken</string>
     <string name="camera_permissions_error">Zonder camera permissies is het niet mogelijk een nieuwe pagina toe te voegen</string>
+    <string name="camera_general_error">Fout bij verwerken van camera data</string>
     <string name="mail_permissions_error">Zonder externe opslag permissies is het niet mogelijk de documenten te versturen via mail</string>
+    <string name="mail_handler_error">Geen e-mail app gevonden</string>
     <!-- Begeleider -->
     <string name="support_title">Mijn contactpersoon</string>
     <string name="support_input_name">Naam</string>

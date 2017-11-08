@@ -5,9 +5,10 @@
     <string name="main_section_header">Services</string>
     <string name="about_header">About</string>
     <string name="main_activity_info_section">This app makes life easier when you have just moved to the Netherlands. It helps you apply for public services and archive a range of documents needed when you send in the applications. </string>
-    <string name="about_activity_content">You can collect necessary documents, categorize and forward them to government or companies. We will you help by identifying which documents are necessary for every category. This app has been created by employees of \'de Volksbank\' as part of an assignment in the \'KEI-program\' 2017.\n\nThis app uses UCrop (https://github.com/Yalantis/uCrop)</string>
+    <string name="about_activity_content">You can collect necessary documents, categorize and forward them to government or companies. We will you help by identifying which documents are necessary for every category. \n\nThis app has been created by employees of \'de Volksbank\' as part of an assignment in the \'KEI-program\' 2017. \n\nAre you interested in contributing to this app? Please go to https://github.com/devolksbank/NL-Help-U. Or contact the developers by using the contact button. \n\nThis app uses UCrop (https://github.com/Yalantis/uCrop)</string>
     <string name="button_hide_splash_screen">Start the app</string>
     <string name="button_open_splash_screen">Open splashscreen</string>
+    <string name="button_feedback">Contact the developers</string>
     <string name="splash_screen_info">NLHelpU is an app you can use to find your way in the Dutch society. It allows you to manage the required documents for various services and share them with your contact person at Vluchtelingenwerk.</string>
     <!-- Documenten -->
     <string name="button_add_new_document_page">Add new page</string>
@@ -22,7 +23,9 @@
     <string name="undo_document_part_delete_button">UNDO</string>
     <string name="undo_document_part_delete_button_details">Undo deletion</string>
     <string name="camera_permissions_error">Permissions for camera required for adding a new page</string>
+    <string name="camera_general_error">Error processing camera output</string>
     <string name="mail_permissions_error">Sending mails is not possible without the external storage permission</string>
+    <string name="mail_handler_error">No email app found on the device</string>
     <!-- Begeleider -->
     <string name="support_title">My contact person</string>
     <string name="support_input_name">Name</string>

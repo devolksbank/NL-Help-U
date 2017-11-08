@@ -3,12 +3,14 @@ package nl.devolksbank.nlhelpu.activity;
 import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
+import android.support.v4.content.FileProvider;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -34,6 +36,7 @@ import nl.devolksbank.nlhelpu.model.FileType;
 import nl.devolksbank.nlhelpu.model.SectionModel;
 import nl.devolksbank.nlhelpu.util.BegeleiderDataSource;
 import nl.devolksbank.nlhelpu.util.DocumentPartsDataSource;
+import nl.devolksbank.nlhelpu.util.IntentUtil;
 import nl.devolksbank.nlhelpu.util.SectionsProvider;
 import nl.devolksbank.nlhelpu.viewadapter.DocumentCollectionViewAdapter;
 
@@ -223,17 +226,29 @@ public class DocumentCollectionActivity extends AppCompatActivity {
         }
         finally
         {
-            if (inChannel != null)
+            if (inChannel != null) {
                 inChannel.close();
-            if (outChannel != null)
+            }
+            if (outChannel != null) {
                 outChannel.close();
+            }
         }
     }
 
+
+
     private void sendMail() {
         Log.d("DocCollectionActivity", "Sending mail");
+
         Intent emailIntent = new Intent(Intent.ACTION_SEND_MULTIPLE);
+        if (!IntentUtil.isIntentHandlerPresent(emailIntent, getApplicationContext())) {
+            Log.w("DocCollectionActivity", "No app present for handling an email intent");
+            Toast.makeText(getApplicationContext(), getString(R.string.mail_handler_error), Toast.LENGTH_LONG).show();
+            return;
+        }
+
         emailIntent.setType("text/html");
+        emailIntent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 
         BegeleiderDataSource dataSource = new BegeleiderDataSource(getApplicationContext());
         StringBuilder toEmail = new StringBuilder();
@@ -248,12 +263,14 @@ public class DocumentCollectionActivity extends AppCompatActivity {
 
         Log.d("DocCollectionActivity", "Adding attachments");
         for (DocumentPart documentPart : documentPartsDataSource.getDocumentPartsForSection(sectionModel)) {
+            Log.d("DocCollectionActivity", "Adding document part: " + documentPart);
             try {
                 // First copy the file to external storage as otherwise it is not accessible for other applications handling the intent
                 File thisFile = new File(getFilesDir(), documentPart.getFileLocation());
                 File thisFileAttachment = new File(Environment.getExternalStorageDirectory(), documentPart.getFileLocation());
                 copyFile(thisFile, thisFileAttachment);
-                Uri thisUri = Uri.fromFile(thisFileAttachment);
+                Log.d("DocCollectionActivity", "File copied");
+                Uri thisUri = FileProvider.getUriForFile(getApplicationContext(), getApplicationContext().getPackageName() + ".util.GenericFileProvider", thisFileAttachment);
                 uris.add(thisUri);
             } catch (IOException ex) {
                 Log.e("DocCollectionActivity", "Unable to copy attachment to shared environment");
