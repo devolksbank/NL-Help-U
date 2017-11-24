@@ -104,6 +104,8 @@ public class SectionsProvider {
             case 4:
                 output.add(FileType.ID);
                 output.add(FileType.ALIEN_DOCUMENT);
+                output.add(FileType.BANK_NOTE);
+                output.add(FileType.RZA_HEALTH_INSURANCE_CARD);
                 break;
             case 5:
                 output.add(FileType.PASSPORT_PHOTO);

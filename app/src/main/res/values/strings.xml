@@ -38,13 +38,13 @@
     <string name="section_1">DigiD</string>
     <string name="section_2">Social welfare payments</string>
     <string name="section_3">Bank account</string>
-    <string name="section_4">Health insurance</string>
+    <string name="section_4">Health Insurance</string>
     <string name="section_5">OV-chipkaart (public transport chip card)</string>
     <!-- section-headers -->
     <string name="section_header_1">DigiD is your digital ID for government services on the internet. You need it for almost everything, such as applying for a rent-rebate or social welfare payment.</string>
     <string name="section_header_2">You can request social welfare payments when you have insufficient income to live.</string>
     <string name="section_header_3">If you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch payments account. It can be used to get your salary or benefits paid on and you can pay your expenditures with it.</string>
-    <string name="section_header_4">If you are living or working in the Netherlands you are legally obliged to have a basic insurance. This basic insurance covers the health care for example of a doctor, hospital or pharmacy.</string>
+    <string name="section_header_4">Everyone who lives or works in the Netherlands must have a basic Health Insurance. When you live in a Reception Center (AZC), as an asylum seeker, your Health Insurance is provided by the Dutch Government. When your asylum is granted and you move out of the AZC, you have to take care of your Health Insurance yourself. Press i for more information.</string>
     <string name="section_header_5">The OV-chipkaart is a card you can use to pay for public transport in the Netherlands. If you have an OV-chipkaart you don\'t have to buy separate tickets for traveling by bus, train or subway.</string>
     <!-- section-details -->
     <string-array name="section_details_1">
@@ -91,11 +91,19 @@
         <item><![CDATA[<a href="https://www.bankenvergelijking.nl/prive-bankrekening">https://www.bankenvergelijking.nl/prive-bankrekening</a>]]></item>
     </string-array>
     <string-array name="section_details_4">
-        <item>Every person living or working in the Netherlands is legally obliged to have a basic insurance.  This basic insurance covers the health care for example of a doctor, hospital or pharmacy.  On top of the basic insurance an extra voluntarily insurance can be added for expenses not covered by the basic insurance.</item>
-        <item><![CDATA[<b>Group health insurance</b>]]></item>
-        <item>A health insurance can be requested at a healthcare insurer. If you receive social welfare, you are eligible for a group health insurance, often less expensive. For more information (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]></item>
-        <item><![CDATA[<b>Comparison site group health insurance</b>]]></item>
-        <item>Een comparison between various healthcare insurers is available at (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
+        <item>Every person living or working in the Netherlands must have a basic insurance.  This basic insurance covers the health care for example of a doctor, hospital or pharmacy.  On top of the basic insurance an extra insurance can be added for expenses not covered by the basic insurance.</item>
+        <item><![CDATA[<b>Health Insurance for asylum seekers</b>]]></item>
+        <item>If you are an asylum seeker, different rules for Health Insurance apply. As long as you live in a Reception Center (AZC) your Health Insurance is provide by the Government. This is called the RZA. When you move out of the AZC to your own home, your RZA ends. From that moment you have get your own Health Insurance. After you have registered at the Municipality of your new home, you will receive a notification (letter) that your RZA Health Insurance has ended. It is important to know that the date your new Health Insurance starts, must be the same date as the RZA ends. If you receive health care cost refunds from your new Insurance Company, when you are still in the RZA, you might have to pay them back later. You have to send your RZA end date to your new Health Insurance Company within 3 weeks after the RZA ends.</item>
+        <item><![CDATA[<b>Group Health Insurance for people with social welfare</b>]]></item>
+        <item>A Health Insurance can be requested at a healthcare insurer. If you receive social welfare, you can get a less expensive Health Insurance at the Municipality in your hometown. For more information, see: <![CDATA[<a href="https://www.gezondverzekerd.nl/veelgestelde-vragen/">https://www.gezondverzekerd.nl/veelgestelde-vragen/</a>]]> Unfortunately this site is only available in Dutch.</item>
+        <item><![CDATA[<b>Comparison site regular Health Insurance</b>]]></item>
+        <item>A comparison between various Healthcare Insurance Companies is available in English at: <![CDATA[<a href="https://www.zorgverzekering.org/eng/compare/">https://www.zorgverzekering.org/eng/compare/</a>]]></item>
+        <item><![CDATA[<b>What do you need to apply for a Health Insurance</b>]]></item>
+        <item>The forms and documents you need to apply for a Health Insurance depend on the company. But in general, the requested (copied) documents are:</item>
+        <item>• ID Card (both sides)</item>
+        <item>• Bank statement or debit card (for your back account number)</item>
+        <item>• Social Security Number letter</item>
+        <item>• RZA Health Insurance Card</item>
     </string-array>
     <string-array name="section_details_5">
         <item>If you carry an OV-chipkaart with you, you no longer need to buy separate strip tickets or metro tickets. You load credit onto the card in Euro or add a travel product, such as a single journey, a monthly subscription or a season ticket.</item>
@@ -127,4 +135,5 @@
     <string name="filetype_5">House rental contract</string>
     <string name="filetype_6">Bank statement</string>
     <string name="filetype_7">Passport photo</string>
+    <string name="filetype_8">RZA Health Insurance Card</string>
 </resources>
