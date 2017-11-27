@@ -44,7 +44,7 @@
     <string name="section_header_1">DigID is je identiteitsbewijs voor overheidsdiensten op internet. Je hebt het voor bijna alles nodig, zoals het aanvragen van huurtoeslag of een uitkering.</string>
     <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als je onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering.</string>
     <string name="section_header_3">Als je langere tijd in Nederland verblijft, is het handig zijn om bij een Nederlandse bank een betaalrekening te hebben. Hier kun je je salaris/uitkering op laten storten en uitgaven mee betalen.</string>
-    <string name="section_header_4">Als je in Nederland woont of werkt, ben je wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek.</string>
+    <string name="section_header_4">Als je in Nederland woont of werkt, moet je een basisverzekering hebben. Als je in een Asielzoekerscentrum (AZC) woont, wordt je Zorgverzekering geregeld door de Nederlandse Staat. Wanneer je asiel toegekend wordt en je uit het AZC verhuist, moet je zelf je Zorgverzekering regelen. Tik op i voor meer informatie.</string>
     <string name="section_header_5">De OV-chipkaart is het betaalmiddel voor het openbaar vervoer in Nederland. Met een OV-chipkaart hoef je geen losse kaartjes meer te kopen voor de bus, trein, tram of metro.</string>
     <!-- section-details -->
     <string-array name="section_details_1">
@@ -90,12 +90,19 @@
         <item><![CDATA[<a href="https://www.bankenvergelijking.nl/prive-bankrekening">https://www.bankenvergelijking.nl/prive-bankrekening</a>]]></item>
     </string-array>
     <string-array name="section_details_4">
-        <item>Iedereen die in Nederland woont of werkt, is wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek. Daarnaast kan iedereen zich (vrijwillig) aanvullend verzekeren voor kosten die het basispakket niet vergoedt.</item>
-        <item><![CDATA[<b>Collectieve zorgverzekering</b>]]></item>
-        <item>Een basisverzekering vraag je aan bij een zorgverzekeraar. Als je een bijstandsuitkering ontvangt, kun je in aanmerking komen voor een collectieve zorgverzekering komen, die vaak goedkoper is. Voor meer informatie zie: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]></item>
-        <item><![CDATA[<b>Vergelijkingssite collectieve zorgverzekering</b>]]></item>
-        <item>Een vergelijking tussen verschillende zorgverzekeraars is te vinden op de volgende pagina: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
-    </string-array>
+        <item>Iedereen die in Nederland woont of werkt, moet een basisverzekering hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek. Daarnaast kan iedereen zich aanvullend verzekeren voor kosten die het basispakket niet vergoedt.</item>
+        <item><![CDATA[<b>Zorgverzekering voor asielzoekers</b>]]></item>
+        <item>Ben je een asielzoeker, dan gelden speciale regels voor de Zorgverzekering. Zolang je in een Asielzoekerscentrum woont, wordt je Zorgverzerking geregeld door de Nederlandse Staat. Dit heet de RZA (Regeling Zorg Asielzoekers). Wanneer je van het AZC verhuist naar je eigen huis, stopt de RZA. Vanaf dat moment moet je zelf je Zorgverzekering regelen. Nadat je je hebt ingeschreven bij de Gemeente in je nieuwe woonplaats, ontvang je een bevestiging (brief) dat je RZA Zorgverzekering gestopt is. Het is belangrijk om te weten dat de datum waarop je nieuwe Zorgverzekering ingaat, dezelfde datum moet zijn als waarop de RZA gestopt is. Als je zorgkosten vergoed krijgt van je nieuwe Zorgverzekering, terwijl je RZA Zorgverzekering ook nog loopt, kan het zijn dat je die kosten later terug moet betalen. Je moet de einddatum van je RZA binnen 3 weken nadat de RZA gestopt is, opsturen naar je nieuwe Zorgverzekeraar.</item>
+        <item><![CDATA[<b>Collectieve zorgverzekering voor mensen met een Bijstandsuitkering</b>]]></item>
+        <item>Een basisverzekering vraag je aan bij een Zorgverzekeraar. Als je een bijstandsuitkering ontvangt, kun je vaak een goedkopere Collectieve Zorgverzekering krijgen van de Gemeente waar je woont. Voor meer informatie zie: <![CDATA[<a href="https://www.gezondverzekerd.nl/veelgestelde-vragen/">https://www.gezondverzekerd.nl/veelgestelde-vragen/</a>]]></item>
+        <item><![CDATA[<b>Vergelijkingssite gewone Zorgverzekering</b>]]></item>
+        <item>Een vergelijking tussen verschillende zorgverzekeraars is te vinden op de volgende pagina: <![CDATA[<a href="https://www.zorgverzekering.org/">https://www.zorgverzekering.org/</a>]]></item>
+        <item><![CDATA[<b>Wat heb je nodig om een Zorgverzekering aan te vragen?</b>]]></item>
+        <item>De formulieren en documenten die je nodig hebt om een Zorgverzekering aan te vragen, verschillen per maatschappij. Maar meestal heb je de volgende (gekopieerde) documenten nodig:</item>
+        <item>• ID-kaart (voor- en achterkant)</item>
+        <item>• Bankafschrift of pinpas (voor je bankrekeningnummer)</item>
+        <item>• BSN Brief</item>
+        <item>• RZA Zorgpas</item></string-array>
     <string-array name="section_details_5">
         <item>Met een OV-chipkaart op zak hoef je niet meer na te denken over strippenkaarten of metrotickets. Je laadt de kaart op met een saldo in euro\'s of je zet er een reisproduct op, zoals een enkele reis, een maandabonnement voor woon-werkverkeer of een trajectkaart.</item>
         <item>Er zijn twee verschillende kaarten: een persoonlijke OV-chipkaart en een anonieme OV-chipkaart. Een OV-chipkaart is altijd herkenbaar aan het roze logo. De chip in de OV-chipkaart is niet zichtbaar. Op jouw persoonlijke OV-chipkaart staan je pasfoto, geboortedatum, de geldigheidsdatum en het OV-chipkaartnummer. Op een anonieme OV-chipkaart staat (vaak) het logo van de vervoerder en de geldigheidsdatum.</item>
@@ -126,4 +133,5 @@
     <string name="filetype_5">Huurovereenkomst</string>
     <string name="filetype_6">Bankafschrift</string>
     <string name="filetype_7">Pasfoto</string>
+    <string name="filetype_8">RZA Zorgpas</string>
 </resources>
