@@ -16,7 +16,7 @@
     <string name="button_delete_document_page">Delete</string>
     <string name="button_crop_document_page">Crop</string>
     <string name="document_collection_list_item_present_title">check</string>
-    <string name="document_collection_list_item_not_present_title">todo</string>
+    <string name="document_collection_list_item_not_present_title">add</string>
     <string name="mail_subject">Documents</string>
     <string name="mail_chooser_hint">Pick an Email provider</string>
     <string name="document_activity_header_section">This page shows all pages of the document</string>
@@ -38,14 +38,16 @@
     <string name="section_1">DigiD</string>
     <string name="section_2">Social welfare payments</string>
     <string name="section_3">Bank account</string>
-    <string name="section_4">Health Insurance</string>
+    <string name="section_4">Health insurance</string>
     <string name="section_5">OV-chipkaart (public transport chip card)</string>
+    <string name="section_6">Liability insurance</string>
     <!-- section-headers -->
     <string name="section_header_1">DigiD is your digital ID for government services on the internet. You need it for almost everything, such as applying for a rent-rebate or social welfare payment.</string>
     <string name="section_header_2">You can request social welfare payments when you have insufficient income to live.</string>
     <string name="section_header_3">If you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch payments account. It can be used to get your salary or benefits paid on and you can pay your expenditures with it.</string>
     <string name="section_header_4">Everyone who lives or works in the Netherlands must have a basic Health Insurance. When you live in a Reception Center (AZC), as an asylum seeker, your Health Insurance is provided by the Dutch Government. When your asylum is granted and you move out of the AZC, you have to take care of your Health Insurance yourself. Press i for more information.</string>
     <string name="section_header_5">The OV-chipkaart is a card you can use to pay for public transport in the Netherlands. If you have an OV-chipkaart you don\'t have to buy separate tickets for traveling by bus, train or subway.</string>
+    <string name="section_header_6">A reliabitly insurance covers costs made when you accidentally break or damage something that belongs to someone else. If you live in a reception center (AZC), you have a liability insurance. This is taken care of by the COA. But when you move out of the AZC to you own home, this liability insurance stops.</string>
     <!-- section-details -->
     <string-array name="section_details_1">
         <item>"Are you going to a town hall or to another public institution's office? In many cases, you must show your passport or driver's license. That's how the government knows who you are. On the internet you can digitally identify yourself by using your DigiD. With your DigiD you can log in to government and healthcare websites."</item>
@@ -126,6 +128,23 @@
         <item>To apply online for a personal OV-chipkaart you need:</item>
         <item>• a passport photo in jpg, max. 5 MB</item>
         <item>• A bank account in the Netherlands with Internet Banking or Mobile Banking, because payment is done by iDEAL</item>
+    </string-array>
+    <string-array name="section_details_6">
+        <item>When you (accidentally) cause injury or damage to someone else, you are liable. The other person can reclaim the costs of this damage from you. A liability insurance covers these costs for you.</item>
+        <item><![CDATA[<b>How does it work?</b>]]></item>
+        <item>A liability insurance covers costs that occur when you or one of your family members cause damage to another person's possessions or to the other person himself. For example: Mark accidentally breaks Linda\’s vase during a visit at her apartment, Mark can be held responsible (liable) for the financial loss of Linda\’s vase. The vase was worth €150. A liability insurance would cover this damage and Linda would receive €150 from Mark\’s insurance company.</item>
+        <item>A liability insurance also covers costs that occur when you didn\'t cause the damage yourself, but you could still be held responsible for it.For example: Mark returns from his vacation and discovers that one of his water mains burst and caused water damage to his neighbour\’s house. In this case, Mark did not cause the damage himself. However, Mark can be held liable because the accident can be seen as his risk, it is a result from a water main burst in his house. A liability insurance covers these costs as well.</item>
+        <item>Important: a liability insurance does not cover costs of damage that was caused on purpose.</item>
+        <item>A liability insurance is not something you have to have by law in the Netherlands. However, it is highly recommended to have one anyway.</item>
+        <item><![CDATA[<b>Which costs are coverd?</b>]]></item>
+        <item>In general the following costs are covered:</item>
+        <item>• Material damage resulting from accidents that damaged or destroyed another person’s personal belongings.</item>
+        <item>• Medical costs, resulting from accidents that caused injuries.</item>
+        <item>• Legal procedures such as a court case or lawsuit and research that is done by professionals.</item>
+        <item><![CDATA[<b>Who is insured?</b>]]></item>
+        <item>Almost every liability insurance covers other family members as well. In most cases, children are automatically included in the policy. Pets are also generally included. However, there are a lot of differences between insurance companies. Because of this, it is best to compare different liability insurers and read the conditions in the policy well.</item>
+        <item>No documents are needed to apply for a liability insurance. You can apply for one on the internet. You only have to fill out your personal details, including your bank account number (IBAN). For that reason you will find the bank statement noted in the documents section.</item>
+        <item>You can compare different liability insurances (in English) on <![CDATA[<a href="https://www.aansprakelijkheidsverzekering.org/eng/compare-liability-insurance/">https://www.aansprakelijkheidsverzekering.org/eng/compare-liability-insurance/</a>]]></item>
     </string-array>
     <!-- file types -->
     <string name="filetype_1">ID card</string>

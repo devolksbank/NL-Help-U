@@ -10,7 +10,7 @@ public enum FileType {
     HOUSE_RENTAL_CONTRACT(5, "filetype-5"),
     BANK_NOTE(6, "filetype-6"),
     PASSPORT_PHOTO(7, "filetype-7"),
-    RZA_HEALTH_INSURANCE_CARD(8,"filetype-8");
+    RZA_HEALTH_INSURANCE_CARD(8, "filetype-8");
 
     private final int id;
     private final String displayName;
