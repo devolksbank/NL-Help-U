@@ -40,12 +40,14 @@
     <string name="section_3">Bankrekening</string>
     <string name="section_4">Zorgverzekering</string>
     <string name="section_5">OV-Chipkaart</string>
+    <string name="section_6">Aansprakelijkheidsverzekering</string>
     <!-- section-headers -->
     <string name="section_header_1">DigID is je identiteitsbewijs voor overheidsdiensten op internet. Je hebt het voor bijna alles nodig, zoals het aanvragen van huurtoeslag of een uitkering.</string>
     <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als je onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering.</string>
     <string name="section_header_3">Als je langere tijd in Nederland verblijft, is het handig zijn om bij een Nederlandse bank een betaalrekening te hebben. Hier kun je je salaris/uitkering op laten storten en uitgaven mee betalen.</string>
     <string name="section_header_4">Als je in Nederland woont of werkt, moet je een basisverzekering hebben. Als je in een Asielzoekerscentrum (AZC) woont, wordt je Zorgverzekering geregeld door de Nederlandse Staat. Wanneer je asiel toegekend wordt en je uit het AZC verhuist, moet je zelf je Zorgverzekering regelen. Tik op i voor meer informatie.</string>
     <string name="section_header_5">De OV-chipkaart is het betaalmiddel voor het openbaar vervoer in Nederland. Met een OV-chipkaart hoef je geen losse kaartjes meer te kopen voor de bus, trein, tram of metro.</string>
+    <string name="section_header_6">Een aansprakelijkheidsverzekering betaalt de kosten als je per ongeluk de spullen van iemand anders kapot maakt. Als je in een asielzoekerscentrum (AZC) woont, heb je een aansprakelijkheidsverzekering. Hier zorgt het COA voor. Maar wanneer je uit het AZC weg gaat naar je eigen huis, dan stop de aansprakelijkheidsverzekering van het COA.</string>
     <!-- section-details -->
     <string-array name="section_details_1">
         <item>Ga je naar een gemeentehuis, of naar het loket van een andere overheidsinstelling? Dan moet je in veel gevallen je identiteitskaart, paspoort of rijbewijs laten zien. Zo weet de overheid wie je bent. Op internet kun je laten zien wie je bent door in te loggen met je DigiD. Met uw DigiD kun je inloggen op websites van de overheid en in de zorg. Je DigiD bestaat uit een gebruikersnaam en een wachtwoord die je allebei zelf kiest.</item>
@@ -124,6 +126,23 @@
         <item>Voor een persoonlijke OV-chipkaart heb je nodig:</item>
         <item>• een pasfoto in jpg, max. 5 MB</item>
         <item>• een Nederlandse bankrekening met Internetbankieren of Mobiel Bankieren, want je betaalt hem met iDEAL</item>
+    </string-array>
+    <string-array name="section_details_6">
+        <item>Wanneer je per ongeluk schade maakt aan de spullen van iemand anders, ben je hiervoor aansprakelijk. De ander kan jou vragen de kosten van de schade aan hem terug te betalen. Een aansprakelijkheidsverzekering betaalt deze kosten voor je.</item>
+        <item><![CDATA[<b>Hoe werkt het?</b>]]></item>
+        <item>Een aansprakelijkheidsverzekering betaalt de kosten van schade die je veroorzaakt aan de spullen van iemand anders, of zelfs aan de andere persoon zelf. Bijvoorbeeld: Mark breekt per ongeluk een vaas van Linda als hij bij haar thuis op bezoek is. Mark is aansprakelijk voor de kosten van de schade aan de vaas. De vaas van Linda kostte €150. Een aansprakelijkheidsverzekering zou deze kosten vergoeden en Linda zou €150 krijgen van Marks verzekering.</item>
+        <item>Een aansprakelijkheidsverzekering betaalt ook de kosten als je de schade niet zelf hebt veroorzaakt, maar er wel verantwoordelijk (aansprakelijk) voor bent. Bijvoorbeeld: Mark komt terug van vakantie en ondekt dat een van zijn waterleidingen gesproken is. Hierdoor is waterschade ontstaan in het huis van de buren. In dit geval heeft Mark de schade niet zelf veroorzaakt, maar hij is er wel aansprakelijk voor. Omdat het een van zijn waterleidingen is, die de schade heeft veroorzaakt, moet hij de kosten betalen. Een aansprakelijkheidsverzekering vergoedt deze kosten ook.</item>
+        <item>Let op: een aansprakelijkheidsverzekering vergoedt geen schade die met opzet (expres) is gemaakt.</item>
+        <item>Het is niet verplicht in Nederland om een aansprakelijkheidsverzekering te hebben. Het is echter wel heel verstandig om er een te hebben.</item>
+        <item><![CDATA[<b>Welke kosten worden vergoed?</b>]]></item>
+        <item>In het algemeen worden de volgende kosten vergoed:</item>
+        <item>• Kosten voor schade die is veroorzaakt door het kapotmaken van de spullen van iemand anders.</item>
+        <item>• Kosten voor behandeling door een arts of ziekenhuis, na een ongeval.</item>
+        <item>• Kosten van een rechtzaak of juridische procedure en onderzoek dat is gedaan door professionals.</item>
+        <item><![CDATA[<b>Wie zijn er verzekerd?</b>]]></item>
+        <item>In bijna iedere aansprakelijkheidsverzekering zijn ook gezinsleden (man, vrouw, kinderen) meeverzekerd. In de meeste gevallen zijn kinderen automatisch meeverzekerd, zonder dat je daar iets extra voor hoeft te doen. Huisdierem zijn vaak ook meeverzekerd. Er zijn echter veel verschillen tussen de voorwaarden van verschillende verzekeringen. Daarom is het goed om verschillende verzekeringsmaatschappijen te vergelijken en de voorwaarden goed door te lezen.</item>
+        <item>Je hebt geen documenten nodig om een aansprakelijkheidsverzekering aan te vragen. Je kunt dit doen op internet. Je hoeft hiervoor alleen je persoonlijke gegevens in te vullen, ook je bankrekeningnummer (IBAN). Daarom staat het bankafschrift bij de documenten in het overzicht. </item>
+        <item>Een vergelijking van verschillende aansprakelijkheidsverzekeringen vind je op <![CDATA[<a href="https://www.aansprakelijkheidsverzekering.org/aansprakelijkheidsverzekering-vergelijken/">https://www.aansprakelijkheidsverzekering.org/aansprakelijkheidsverzekering-vergelijken/</a>]]></item>
     </string-array>
     <!-- file types -->
     <string name="filetype_1">ID bewijs</string>
