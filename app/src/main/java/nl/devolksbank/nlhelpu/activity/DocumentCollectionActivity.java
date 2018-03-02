@@ -108,7 +108,18 @@ public class DocumentCollectionActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d("DocCollectionActivity", "Starting section detail");
+                Log.d("DocCollectionActivity", "Starting section detail (via image)");
+                Intent intent = new Intent(documentCollectionActivity, SectionInfo.class);
+                intent.putExtra(MainActivity.SELECTED_SECTION_ID, selectedSectionId);
+                startActivity(intent);
+            }
+        });
+
+        final TextView txtDocumentCollection = (TextView) findViewById(R.id.txtDocumentCollection);
+        txtDocumentCollection.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d("DocCollectionActivity", "Starting section detail (via text)");
                 Intent intent = new Intent(documentCollectionActivity, SectionInfo.class);
                 intent.putExtra(MainActivity.SELECTED_SECTION_ID, selectedSectionId);
                 startActivity(intent);
@@ -234,8 +245,6 @@ public class DocumentCollectionActivity extends AppCompatActivity {
             }
         }
     }
-
-
 
     private void sendMail() {
         Log.d("DocCollectionActivity", "Sending mail");
