@@ -4,6 +4,8 @@ NL Help U is an app to help asylum seekers who are permitted to stay in The Neth
 
 For more information, see: https://www.nlhelpu.nl/
 
+<img src="https://github.com/devolksbank/NL-Help-U/raw/develop/screenshots/Screenshot_1501075574.png" width="200"> <img src="https://github.com/devolksbank/NL-Help-U/raw/develop/screenshots/Screenshot_1501076733.png" width="200"> <img src="https://github.com/devolksbank/NL-Help-U/raw/develop/screenshots/Screenshots%20-%202017-08-08%20-%20AR/10-section-info.png" width="200">
+
 ## Where can I try the app?
 
 The app is published in the Android Play Store: https://play.google.com/store/apps/details?id=nl.devolksbank.nlhelpu
