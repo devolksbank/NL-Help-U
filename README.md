@@ -8,7 +8,7 @@ NL Help U is an app to help asylum seekers who are permitted to stay in The Neth
 
 ## Where can I try the app?
 
-Since the app will be removed from the Android Play Store, you can try it by downloading the APK from the builds.
+Since the app will be removed from the Android Play Store, you can try it by downloading the zip from the releases.
 
 Only an Android app is available, no other operating systems are supported.
 
@@ -26,7 +26,7 @@ This can either be done by the user, or by the 'assistant' of the user.
 
 ## How can I get it?
 
-The app will shortly be removed from the Android Play store. For a running app, check the APK in the builds section.
+The app will shortly be removed from the Android Play store. For a running app, check the zip in the releases section.
 
 ## How can I contribute?
 
