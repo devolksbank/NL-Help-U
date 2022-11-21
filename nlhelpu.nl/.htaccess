@@ -1,0 +1,9 @@
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} !^www\.
+RewriteRule ^ https://www.%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+Header set X-Frame-Options "SAMEORIGIN"
+Header set Referrer-Policy "origin-when-cross-origin"
+Header set X-Content-Type-Options "nosniff"
+Header set X-XSS-Protection "1; mode=block"

@@ -1014,7 +1014,7 @@
 			color: #d1f2f5;
 		}
 
-			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6 {
+			.wrapper.style3 h1, .wrapper.style3 h2, .wrapper.style3 h3, .wrapper.style3 h4, .wrapper.style3 h5, .wrapper.style3 h6, .wrapper.style3 a, .wrapper.style3 a:hover {
 				color: #ffffff;
 			}
 

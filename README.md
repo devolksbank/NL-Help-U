@@ -1,14 +1,16 @@
+It started as an initiative to lend a helping hand to status holders at various government agencies. To organize documents and easily share them. We have been on the radio and TV at Omroep Brabant and have had many nice reactions. Unfortunately we have decided to stop developing the app. We will remove the app from the App Store shortly, but all the information and the app will remain available here on GitHub. Do you have any questions? You can still get in touch with the deverlopers via info@nlhelpu.nl.
+
 # NL Help U
 
 NL Help U is an app to help asylum seekers who are permitted to stay in The Netherlands to find their way in the Dutch society.
 
-For more information, see: https://www.nlhelpu.nl/
+<img src="https://github.com/devolksbank/NL-Help-U/raw/develop/screenshots/Screenshot_1501075574.png" width="200"> <img src="https://github.com/devolksbank/NL-Help-U/raw/develop/screenshots/Screenshot_1501076733.png" width="200"> <img src="https://github.com/devolksbank/NL-Help-U/raw/develop/screenshots/Screenshots%20-%202017-08-08%20-%20AR/10-section-info.png" width="200">
 
 ## Where can I try the app?
 
-The app is published in the Android Play Store: https://play.google.com/store/apps/details?id=nl.devolksbank.nlhelpu
+Since the app will be removed from the Android Play Store, you can build the app from the source code.
 
-Only an Android app is available at the moment, no other operating systems are supported (yet)
+Only an Android app is available, no other operating systems are supported.
 
 ## How does it work?
 
@@ -24,15 +26,11 @@ This can either be done by the user, or by the 'assistant' of the user.
 
 ## How can I get it?
 
-The app is published in the Android Play store: https://play.google.com/store/apps/details?id=nl.devolksbank.nlhelpu
+The app will shortly be removed from the Android Play store. The source code will remain available here on Github.
 
 ## How can I contribute?
 
-You can help by:
- - Adding new features to the app (like setting reminders for requests and so on)
- - Adding or updating information within the app (new topics or new information regarding existing topcis)
- - Helping with translations (of new content or to other languages)
- - Create an iOS version of this app
+You can take the code to revive the app or just use the code for development on your own app.
 
 Please feel free to create some pullrequests or contact us at: [info@nlhelpu.nl](info@nlhelpu.nl)
 

@@ -16,7 +16,7 @@
     <string name="button_delete_document_page">Delete</string>
     <string name="button_crop_document_page">Crop</string>
     <string name="document_collection_list_item_present_title">check</string>
-    <string name="document_collection_list_item_not_present_title">todo</string>
+    <string name="document_collection_list_item_not_present_title">add</string>
     <string name="mail_subject">Documents</string>
     <string name="mail_chooser_hint">Pick an Email provider</string>
     <string name="document_activity_header_section">This page shows all pages of the document</string>
@@ -40,12 +40,16 @@
     <string name="section_3">Bank account</string>
     <string name="section_4">Health insurance</string>
     <string name="section_5">OV-chipkaart (public transport chip card)</string>
+    <string name="section_6">Liability insurance</string>
+    <string name="section_7">Phone number</string>
     <!-- section-headers -->
     <string name="section_header_1">DigiD is your digital ID for government services on the internet. You need it for almost everything, such as applying for a rent-rebate or social welfare payment.</string>
     <string name="section_header_2">You can request social welfare payments when you have insufficient income to live.</string>
     <string name="section_header_3">If you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch payments account. It can be used to get your salary or benefits paid on and you can pay your expenditures with it.</string>
-    <string name="section_header_4">If you are living or working in the Netherlands you are legally obliged to have a basic insurance. This basic insurance covers the health care for example of a doctor, hospital or pharmacy.</string>
+    <string name="section_header_4">Everyone who lives or works in the Netherlands must have a basic Health Insurance. When you live in a Reception Center (AZC), as an asylum seeker, your Health Insurance is provided by the Dutch Government. When your asylum is granted and you move out of the AZC, you have to take care of your Health Insurance yourself. Press i for more information.</string>
     <string name="section_header_5">The OV-chipkaart is a card you can use to pay for public transport in the Netherlands. If you have an OV-chipkaart you don\'t have to buy separate tickets for traveling by bus, train or subway.</string>
+    <string name="section_header_6">A reliabitly insurance covers costs made when you accidentally break or damage something that belongs to someone else. If you live in a reception center (AZC), you have a liability insurance. This is taken care of by the COA. But when you move out of the AZC to you own home, this liability insurance stops.</string>
+    <string name="section_header_7">When you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch mobile phone number to save on costs. Read more...</string>
     <!-- section-details -->
     <string-array name="section_details_1">
         <item>"Are you going to a town hall or to another public institution's office? In many cases, you must show your passport or driver's license. That's how the government knows who you are. On the internet you can digitally identify yourself by using your DigiD. With your DigiD you can log in to government and healthcare websites."</item>
@@ -91,11 +95,19 @@
         <item><![CDATA[<a href="https://www.bankenvergelijking.nl/prive-bankrekening">https://www.bankenvergelijking.nl/prive-bankrekening</a>]]></item>
     </string-array>
     <string-array name="section_details_4">
-        <item>Every person living or working in the Netherlands is legally obliged to have a basic insurance.  This basic insurance covers the health care for example of a doctor, hospital or pharmacy.  On top of the basic insurance an extra voluntarily insurance can be added for expenses not covered by the basic insurance.</item>
-        <item><![CDATA[<b>Group health insurance</b>]]></item>
-        <item>A health insurance can be requested at a healthcare insurer. If you receive social welfare, you are eligible for a group health insurance, often less expensive. For more information (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]></item>
-        <item><![CDATA[<b>Comparison site group health insurance</b>]]></item>
-        <item>Een comparison between various healthcare insurers is available at (in Dutch): <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
+        <item>Every person living or working in the Netherlands must have a basic insurance.  This basic insurance covers the health care for example of a doctor, hospital or pharmacy.  On top of the basic insurance an extra insurance can be added for expenses not covered by the basic insurance.</item>
+        <item><![CDATA[<b>Health Insurance for asylum seekers</b>]]></item>
+        <item>If you are an asylum seeker, different rules for Health Insurance apply. As long as you live in a Reception Center (AZC) your Health Insurance is provide by the Government. This is called the RZA. When you move out of the AZC to your own home, your RZA ends. From that moment you have get your own Health Insurance. After you have registered at the Municipality of your new home, you will receive a notification (letter) that your RZA Health Insurance has ended. It is important to know that the date your new Health Insurance starts, must be the same date as the RZA ends. If you receive health care cost refunds from your new Insurance Company, when you are still in the RZA, you might have to pay them back later. You have to send your RZA end date to your new Health Insurance Company within 3 weeks after the RZA ends.</item>
+        <item><![CDATA[<b>Group Health Insurance for people with social welfare</b>]]></item>
+        <item>A Health Insurance can be requested at a healthcare insurer. If you receive social welfare, you can get a less expensive Health Insurance at the Municipality in your hometown. For more information, see: <![CDATA[<a href="https://www.gezondverzekerd.nl/veelgestelde-vragen/">https://www.gezondverzekerd.nl/veelgestelde-vragen/</a>]]> Unfortunately this site is only available in Dutch.</item>
+        <item><![CDATA[<b>Comparison site regular Health Insurance</b>]]></item>
+        <item>A comparison between various Healthcare Insurance Companies is available in English at: <![CDATA[<a href="https://www.zorgverzekering.org/eng/compare/">https://www.zorgverzekering.org/eng/compare/</a>]]></item>
+        <item><![CDATA[<b>What do you need to apply for a Health Insurance</b>]]></item>
+        <item>The forms and documents you need to apply for a Health Insurance depend on the company. But in general, the requested (copied) documents are:</item>
+        <item>• ID Card (both sides)</item>
+        <item>• Bank statement or debit card (for your back account number)</item>
+        <item>• Social Security Number letter</item>
+        <item>• RZA Health Insurance Card</item>
     </string-array>
     <string-array name="section_details_5">
         <item>If you carry an OV-chipkaart with you, you no longer need to buy separate strip tickets or metro tickets. You load credit onto the card in Euro or add a travel product, such as a single journey, a monthly subscription or a season ticket.</item>
@@ -114,10 +126,54 @@
         <item>You can apply for a personal OV-chipkaart online at: <![CDATA[<a href="https://www.ov-chipkaart.nl/ov-chip-kopen/persoonlijke-ov-chipkaart-aanvragen.htm">https://www.ov-chipkaart.nl/ov-chip-kopen/persoonlijke-ov-chipkaart-aanvragen.htm</a>]]>. The personal OV-chipkaart costs € 7.50. A personal OV-chipkaart is also valid for five years.</item>
         <item>If you cannot or do not wish to apply for your personal OV-chipkaart online, you can pick up a paper application form for a personal OV-chipkaart at the counters for public transport companies, or order one at the OV-chipkaart Customer Care Center, dial 0900-0980 (not free of charge). Processing  a paper application form involves additional actions, such as entry of your details into computer systems. You will therefore pay a fee of €3.- for a paper application form.</item>
         <item><![CDATA[<b>What do I need to apply for an OV-chipkaart?</b>]]></item>
-        <item>An anonymous OV-chipkaart doesn’t require any documents. You can just buy it in various shops. If you apply for it online, you need to be able to pay by iDEAL, see details below.</item>
+        <item>An anonymous OV-chipkaart doesn\'t require any documents. You can just buy it in various shops. If you apply for it online, you need to be able to pay by iDEAL, see details below.</item>
         <item>To apply online for a personal OV-chipkaart you need:</item>
         <item>• a passport photo in jpg, max. 5 MB</item>
         <item>• A bank account in the Netherlands with Internet Banking or Mobile Banking, because payment is done by iDEAL</item>
+    </string-array>
+    <string-array name="section_details_6">
+        <item>When you (accidentally) cause injury or damage to things that belong to someone else, you are liable. The other person can reclaim the costs of this damage from you. A liability insurance covers these costs for you.</item>
+        <item><![CDATA[<b>How does it work?</b>]]></item>
+        <item>A liability insurance covers costs that occur when you or one of your family members cause damage to another person\'s possessions or to the other person himself. For example: Mark accidentally breaks Linda\’s vase during a visit at her apartment, Mark can be held responsible (liable) for the financial loss of Linda\’s vase. The vase was worth €150. A liability insurance would cover this damage and Linda would receive €150 from Mark\’s insurance company.</item>
+        <item>A liability insurance also covers costs that occur when you didn\'t cause the damage yourself, but you could still be held responsible for it. For example: Mark returns from his vacation and discovers that one of his water mains burst and caused water damage to his neighbour\’s house. In this case, Mark did not cause the damage himself. However, Mark can be held liable because the accident can be seen as his risk, it is a result from a water main burst in his house. A liability insurance covers these costs as well.</item>
+        <item>Important: a liability insurance does not cover costs of damage that was caused on purpose.</item>
+        <item>A liability insurance is not something you have to have by law in the Netherlands. However, it is highly recommended to have one anyway.</item>
+        <item><![CDATA[<b>Which costs are covered?</b>]]></item>
+        <item>In general the following costs are covered:</item>
+        <item>• Material damage resulting from accidents that damaged or destroyed another person’s personal belongings.</item>
+        <item>• Medical costs, resulting from accidents that caused injuries.</item>
+        <item>• Legal procedures such as a court case or lawsuit and research that is done by professionals.</item>
+        <item><![CDATA[<b>Who is insured?</b>]]></item>
+        <item>Almost every liability insurance covers other family members as well. In most cases, children are automatically included in the policy. Pets are also generally included. However, there are a lot of differences between insurance companies. Because of this, it is best to compare different liability insurers and read the conditions in the policy well.</item>
+        <item>No documents are needed to apply for a liability insurance. You can apply for one on the internet. You only have to fill out your personal details, including your bank account number (IBAN). For that reason you will find the bank statement noted in the documents section.</item>
+        <item>You can compare different liability insurances (in English) on <![CDATA[<a href="https://www.aansprakelijkheidsverzekering.org/eng/compare-liability-insurance/">https://www.aansprakelijkheidsverzekering.org/eng/compare-liability-insurance/</a>]]></item>
+    </string-array>
+    <string-array name="section_details_7">
+        <item>When you are staying in the Netherlands for more than a few months, it is very useful to have a Dutch mobile phone number to save on costs. The reason for this is the fact that you connect over a local network, for local costs.</item>
+        <item>There are several ways to obtain a Dutch phone number: prepaid or a subscription. When using prepaid, you pay an amount in advance and with a subscription you pay a monthly amount (if you stay within your bundle). In many cases you have the choice to also buy a phone with your subscription. This is not necessary and in some cases it can be cheaper to buy a separate phone without a subscription.</item>
+        <item><![CDATA[<b>Prepaid</b>]]></item>
+        <item>A prepaid simcard must be charged in advanced to be able to use the mobile network for making calls, sending texts and/or using the internet. Notice that the emergency number 112 is always free of use, even though you ran out of call credits. The way in which you can charge your credits depends on your provider. It can be via cards (with a code) bought in a store, via texts or online. For more details, contact your provider.</item>
+        <item>A few websites for comparing prepaid subscriptions:</item>
+        <item>• <![CDATA[<a href="https://www.prepaidsimkaart.net/prepaid-telefoon">https://www.prepaidsimkaart.net/prepaid-telefoon</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.bellen.com/vergelijken/prepaid">https://www.bellen.com/vergelijken/prepaid</a>]]></item>
+        <item><![CDATA[<b>Subscription - sim-only</b>]]></item>
+        <item>When you choose a subscription, you don\'t have to manually charge your call credits every time you run out of them. Instead you pay a fixed amount each month and in exchange you receive an amount of credits for making calls, sending texts and using the internet. When you use more than the fixed amount of credits, you have to pay for this on top of your subscription amount.</item>
+        <item>When using a sim-only subscription, you only get a simcard. You can put this in your existing phone in order to use it.</item>
+        <item>A few websites for comparing sim-only subscriptions:</item>
+        <item>• <![CDATA[<a href="https://www.bellen.com/vergelijken/sim-only">https://www.bellen.com/vergelijken/sim-only</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.simonly.nl/vergelijken">https://www.simonly.nl/vergelijken</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.vergelijksimonly.nl/">https://www.vergelijksimonly.nl/</a>]]></item>
+        <item><![CDATA[<b>Subscription - including a phone</b>]]></item>
+        <item>There are also subscriptions which include a phone. These are often advertised as \'free\', but instead the price of the phone itself is incorporated into the monthly fee. So each month, you pay a \'part\' of your device. When you choose such a subscription, it can be that you are asked a number of questions to judge your knowledge on the fact that you actually are taking a loan for the device. The monthly costs for the subscription are common to be paid by automatic direct debit transactions. In that way you don\'t have to worry about making the payments. Notice that after the contract period, the subscription is automatically extended without further notice. Do know that after this period, you are free to cancel it on a monthly base.</item>
+        <item>A few websites for comparing these subscriptions:</item>
+        <item>• <![CDATA[<a href="https://www.prijsvergelijken.nl/telefoon-abonnement/">https://www.prijsvergelijken.nl/telefoon-abonnement/</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.mobiel.nl/abonnement">https://www.mobiel.nl/abonnement</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.goedkoopste-telefoonabonnement.nl/">https://www.goedkoopste-telefoonabonnement.nl/</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.bellen.com/">https://www.bellen.com/</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.telefoonabonnement.nl/">https://www.telefoonabonnement.nl/</a>]]></item>
+        <item>For more information on this topic, see:</item>
+        <item>• <![CDATA[<a href="https://www.justlanded.com/english/Netherlands/Netherlands-Guide/Telephone-Internet/Tariffs">https://www.justlanded.com/english/Netherlands/Netherlands-Guide/Telephone-Internet/Tariffs</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.iamexpat.nl/expat-info/communication/mobile-telephony-netherlands">https://www.iamexpat.nl/expat-info/communication/mobile-telephony-netherlands</a>]]></item>
     </string-array>
     <!-- file types -->
     <string name="filetype_1">ID card</string>
@@ -127,4 +183,5 @@
     <string name="filetype_5">House rental contract</string>
     <string name="filetype_6">Bank statement</string>
     <string name="filetype_7">Passport photo</string>
+    <string name="filetype_8">RZA Health Insurance Card</string>
 </resources>

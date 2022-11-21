@@ -9,7 +9,8 @@ public enum FileType {
     ACTIVATION_LETTER_DIGID(4, "filetype-4"),
     HOUSE_RENTAL_CONTRACT(5, "filetype-5"),
     BANK_NOTE(6, "filetype-6"),
-    PASSPORT_PHOTO(7, "filetype-7");
+    PASSPORT_PHOTO(7, "filetype-7"),
+    RZA_HEALTH_INSURANCE_CARD(8, "filetype-8");
 
     private final int id;
     private final String displayName;
@@ -52,6 +53,8 @@ public enum FileType {
                 return R.string.filetype_6;
             case 7:
                 return R.string.filetype_7;
+            case 8:
+                return R.string.filetype_8;
             default:
                 break;
         }

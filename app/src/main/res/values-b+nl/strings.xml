@@ -40,12 +40,16 @@
     <string name="section_3">Bankrekening</string>
     <string name="section_4">Zorgverzekering</string>
     <string name="section_5">OV-Chipkaart</string>
+    <string name="section_6">Aansprakelijkheidsverzekering</string>
+    <string name="section_7">Telefoonnummer</string>
     <!-- section-headers -->
-    <string name="section_header_1">DigID is je identiteitsbewijs voor overheidsdiensten op internet. Je hebt het voor bijna alles nodig, zoals het aanvragen van huurtoeslag of een uitkering.</string>
-    <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als je onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering.</string>
-    <string name="section_header_3">Als je langere tijd in Nederland verblijft, is het handig zijn om bij een Nederlandse bank een betaalrekening te hebben. Hier kun je je salaris/uitkering op laten storten en uitgaven mee betalen.</string>
-    <string name="section_header_4">Als je in Nederland woont of werkt, ben je wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek.</string>
-    <string name="section_header_5">De OV-chipkaart is het betaalmiddel voor het openbaar vervoer in Nederland. Met een OV-chipkaart hoef je geen losse kaartjes meer te kopen voor de bus, trein, tram of metro.</string>
+    <string name="section_header_1">DigID is je identiteitsbewijs voor overheidsdiensten op internet. Je hebt het voor bijna alles nodig, zoals het aanvragen van huurtoeslag of een uitkering. Lees meer...</string>
+    <string name="section_header_2">Je kan een bijstandsuitkering aanvragen als je onvoldoende inkomen of vermogen hebt om van te leven en je geen recht hebt op een andere uitkering. Lees meer...</string>
+    <string name="section_header_3">Als je langere tijd in Nederland verblijft, is het handig om bij een Nederlandse bank een betaalrekening te hebben. Hier kun je je salaris/uitkering op laten storten en uitgaven mee betalen. Lees meer...</string>
+    <string name="section_header_4">Als je in Nederland woont of werkt, moet je een basisverzekering hebben. Als je in een Asielzoekerscentrum (AZC) woont, wordt je Zorgverzekering geregeld door de Nederlandse Staat. Wanneer je asiel toegekend wordt en je uit het AZC verhuist, moet je zelf je Zorgverzekering regelen. Tik op i voor meer informatie. Lees meer...</string>
+    <string name="section_header_5">De OV-chipkaart is het betaalmiddel voor het openbaar vervoer in Nederland. Met een OV-chipkaart hoef je geen losse kaartjes meer te kopen voor de bus, trein, tram of metro. Lees meer...</string>
+    <string name="section_header_6">Een aansprakelijkheidsverzekering betaalt de kosten als je per ongeluk de spullen van iemand anders kapot maakt. Als je in een asielzoekerscentrum (AZC) woont, heb je een aansprakelijkheidsverzekering. Hier zorgt het COA voor. Maar wanneer je uit het AZC weg gaat naar je eigen huis, dan stopt de aansprakelijkheidsverzekering van het COA. Lees meer...</string>
+    <string name="section_header_7">Wanneer je voor een langere tijd in Nederland verblijft, is het handig om een Nederlands mobiel nummer aan te vragen om zo kosten te besparen. Lees meer...</string>
     <!-- section-details -->
     <string-array name="section_details_1">
         <item>Ga je naar een gemeentehuis, of naar het loket van een andere overheidsinstelling? Dan moet je in veel gevallen je identiteitskaart, paspoort of rijbewijs laten zien. Zo weet de overheid wie je bent. Op internet kun je laten zien wie je bent door in te loggen met je DigiD. Met uw DigiD kun je inloggen op websites van de overheid en in de zorg. Je DigiD bestaat uit een gebruikersnaam en een wachtwoord die je allebei zelf kiest.</item>
@@ -90,12 +94,19 @@
         <item><![CDATA[<a href="https://www.bankenvergelijking.nl/prive-bankrekening">https://www.bankenvergelijking.nl/prive-bankrekening</a>]]></item>
     </string-array>
     <string-array name="section_details_4">
-        <item>Iedereen die in Nederland woont of werkt, is wettelijk verplicht een basisverzekering te hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek. Daarnaast kan iedereen zich (vrijwillig) aanvullend verzekeren voor kosten die het basispakket niet vergoedt.</item>
-        <item><![CDATA[<b>Collectieve zorgverzekering</b>]]></item>
-        <item>Een basisverzekering vraag je aan bij een zorgverzekeraar. Als je een bijstandsuitkering ontvangt, kun je in aanmerking komen voor een collectieve zorgverzekering komen, die vaak goedkoper is. Voor meer informatie zie: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html">https://www.collectievezorgverzekering.nl/collectief-via/gemeente.html</a>]]></item>
-        <item><![CDATA[<b>Vergelijkingssite collectieve zorgverzekering</b>]]></item>
-        <item>Een vergelijking tussen verschillende zorgverzekeraars is te vinden op de volgende pagina: <![CDATA[<a href="https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html">https://www.collectievezorgverzekering.nl/zorgverzekering-vergelijken.html</a>]]></item>
-    </string-array>
+        <item>Iedereen die in Nederland woont of werkt, moet een basisverzekering hebben. Deze basisverzekering dekt de standaardzorg van bijvoorbeeld huisarts, ziekenhuis of apotheek. Daarnaast kan iedereen zich aanvullend verzekeren voor kosten die het basispakket niet vergoedt.</item>
+        <item><![CDATA[<b>Zorgverzekering voor asielzoekers</b>]]></item>
+        <item>Ben je een asielzoeker, dan gelden speciale regels voor de Zorgverzekering. Zolang je in een Asielzoekerscentrum woont, wordt je Zorgverzerking geregeld door de Nederlandse Staat. Dit heet de RZA (Regeling Zorg Asielzoekers). Wanneer je van het AZC verhuist naar je eigen huis, stopt de RZA. Vanaf dat moment moet je zelf je Zorgverzekering regelen. Nadat je je hebt ingeschreven bij de Gemeente in je nieuwe woonplaats, ontvang je een bevestiging (brief) dat je RZA Zorgverzekering gestopt is. Het is belangrijk om te weten dat de datum waarop je nieuwe Zorgverzekering ingaat, dezelfde datum moet zijn als waarop de RZA gestopt is. Als je zorgkosten vergoed krijgt van je nieuwe Zorgverzekering, terwijl je RZA Zorgverzekering ook nog loopt, kan het zijn dat je die kosten later terug moet betalen. Je moet de einddatum van je RZA binnen 3 weken nadat de RZA gestopt is, opsturen naar je nieuwe Zorgverzekeraar.</item>
+        <item><![CDATA[<b>Collectieve zorgverzekering voor mensen met een Bijstandsuitkering</b>]]></item>
+        <item>Een basisverzekering vraag je aan bij een Zorgverzekeraar. Als je een bijstandsuitkering ontvangt, kun je vaak een goedkopere Collectieve Zorgverzekering krijgen van de Gemeente waar je woont. Voor meer informatie zie: <![CDATA[<a href="https://www.gezondverzekerd.nl/veelgestelde-vragen/">https://www.gezondverzekerd.nl/veelgestelde-vragen/</a>]]></item>
+        <item><![CDATA[<b>Vergelijkingssite gewone Zorgverzekering</b>]]></item>
+        <item>Een vergelijking tussen verschillende zorgverzekeraars is te vinden op de volgende pagina: <![CDATA[<a href="https://www.zorgverzekering.org/">https://www.zorgverzekering.org/</a>]]></item>
+        <item><![CDATA[<b>Wat heb je nodig om een Zorgverzekering aan te vragen?</b>]]></item>
+        <item>De formulieren en documenten die je nodig hebt om een Zorgverzekering aan te vragen, verschillen per maatschappij. Maar meestal heb je de volgende (gekopieerde) documenten nodig:</item>
+        <item>• ID-kaart (voor- en achterkant)</item>
+        <item>• Bankafschrift of pinpas (voor je bankrekeningnummer)</item>
+        <item>• BSN Brief</item>
+        <item>• RZA Zorgpas</item></string-array>
     <string-array name="section_details_5">
         <item>Met een OV-chipkaart op zak hoef je niet meer na te denken over strippenkaarten of metrotickets. Je laadt de kaart op met een saldo in euro\'s of je zet er een reisproduct op, zoals een enkele reis, een maandabonnement voor woon-werkverkeer of een trajectkaart.</item>
         <item>Er zijn twee verschillende kaarten: een persoonlijke OV-chipkaart en een anonieme OV-chipkaart. Een OV-chipkaart is altijd herkenbaar aan het roze logo. De chip in de OV-chipkaart is niet zichtbaar. Op jouw persoonlijke OV-chipkaart staan je pasfoto, geboortedatum, de geldigheidsdatum en het OV-chipkaartnummer. Op een anonieme OV-chipkaart staat (vaak) het logo van de vervoerder en de geldigheidsdatum.</item>
@@ -118,6 +129,48 @@
         <item>• een pasfoto in jpg, max. 5 MB</item>
         <item>• een Nederlandse bankrekening met Internetbankieren of Mobiel Bankieren, want je betaalt hem met iDEAL</item>
     </string-array>
+    <string-array name="section_details_6">
+        <item>Wanneer je per ongeluk schade maakt aan de spullen van iemand anders, ben je hiervoor aansprakelijk. De ander kan jou vragen de kosten van de schade aan hem terug te betalen. Een aansprakelijkheidsverzekering betaalt deze kosten voor je.</item>
+        <item><![CDATA[<b>Hoe werkt het?</b>]]></item>
+        <item>Een aansprakelijkheidsverzekering betaalt de kosten van schade die je veroorzaakt aan de spullen van iemand anders, of zelfs aan de andere persoon zelf. Bijvoorbeeld: Mark breekt per ongeluk een vaas van Linda als hij bij haar thuis op bezoek is. Mark is aansprakelijk voor de kosten van de schade aan de vaas. De vaas van Linda kostte €150. Een aansprakelijkheidsverzekering zou deze kosten vergoeden en Linda zou €150 krijgen van Marks verzekering.</item>
+        <item>Een aansprakelijkheidsverzekering betaalt ook de kosten als je de schade niet zelf hebt veroorzaakt, maar er wel verantwoordelijk (aansprakelijk) voor bent. Bijvoorbeeld: Mark komt terug van vakantie en ondekt dat een van zijn waterleidingen gesproken is. Hierdoor is waterschade ontstaan in het huis van de buren. In dit geval heeft Mark de schade niet zelf veroorzaakt, maar hij is er wel aansprakelijk voor. Omdat het een van zijn waterleidingen is, die de schade heeft veroorzaakt, moet hij de kosten betalen. Een aansprakelijkheidsverzekering vergoedt deze kosten ook.</item>
+        <item>Let op: een aansprakelijkheidsverzekering vergoedt geen schade die met opzet (expres) is gemaakt.</item>
+        <item>Het is niet verplicht in Nederland om een aansprakelijkheidsverzekering te hebben. Het is echter wel heel verstandig om er een te hebben.</item>
+        <item><![CDATA[<b>Welke kosten worden vergoed?</b>]]></item>
+        <item>In het algemeen worden de volgende kosten vergoed:</item>
+        <item>• Kosten voor schade die is veroorzaakt door het kapotmaken van de spullen van iemand anders.</item>
+        <item>• Kosten voor behandeling door een arts of ziekenhuis, na een ongeval.</item>
+        <item>• Kosten van een rechtzaak of juridische procedure en onderzoek dat is gedaan door professionals.</item>
+        <item><![CDATA[<b>Wie zijn er verzekerd?</b>]]></item>
+        <item>In bijna iedere aansprakelijkheidsverzekering zijn ook gezinsleden (man, vrouw, kinderen) meeverzekerd. In de meeste gevallen zijn kinderen automatisch meeverzekerd, zonder dat je daar iets extra voor hoeft te doen. Huisdieren zijn vaak ook meeverzekerd. Er zijn echter veel verschillen tussen de voorwaarden van verschillende verzekeringen. Daarom is het goed om verschillende verzekeringsmaatschappijen te vergelijken en de voorwaarden goed door te lezen.</item>
+        <item>Je hebt geen documenten nodig om een aansprakelijkheidsverzekering aan te vragen. Je kunt dit doen op internet. Je hoeft hiervoor alleen je persoonlijke gegevens in te vullen, ook je bankrekeningnummer (IBAN). Daarom staat het bankafschrift bij de documenten in het overzicht. </item>
+        <item>Een vergelijking van verschillende aansprakelijkheidsverzekeringen vind je op <![CDATA[<a href="https://www.aansprakelijkheidsverzekering.org/aansprakelijkheidsverzekering-vergelijken/">https://www.aansprakelijkheidsverzekering.org/aansprakelijkheidsverzekering-vergelijken/</a>]]></item>
+    </string-array>
+    <string-array name="section_details_7">
+        <item>Wanneer je voor een langere tijd in Nederland verblijft, is het handig om een Nederlands mobiel nummer aan te vragen om zo kosten te besparen. Je verbinding is namelijk over een Nederlands netwerk, waardoor je lokale tarieven betaalt.</item>
+        <item>Er zijn verschillende manieren om aan een Nederlands telefoonnummer te komen: prepaid of een abonnement. Bij prepaid betaal je vooraf en bij een abonnement betaal je maandelijks een vast bedrag (als je binnen je bundel blijft). Daarnaast heb je vaak de keuze om bij een mobiel nummer ook gelijk een telefoon te kopen. Dit is niet perse nodig en het kan in sommige gevallen goedkoper zijn om zelf los een toestel aan te schaffen.</item>
+        <item><![CDATA[<b>Prepaid</b>]]></item>
+        <item>Bij een prepaid simkaart moet je deze vooraf opwaarderen om van het netwerk gebruik te kunnen maken om te bellen, smsen en/of internetten. Merk op dat het gebruik van het noodnummer 112 altijd gratis is, ookal heb je geen tegoed meer. Hoe je kan opwaarderen hangt van je provider af. Je kan in een winkel een kaart kopen, of het online regelen. Kijk voor meer details bij je aanbieder.</item>
+        <item>Een aantal website's waar je prepaid abonnementen kan vergelijken, zijn:</item>
+        <item>• <![CDATA[<a href="https://www.prepaidsimkaart.net/prepaid-telefoon">https://www.prepaidsimkaart.net/prepaid-telefoon</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.bellen.com/vergelijken/prepaid">https://www.bellen.com/vergelijken/prepaid</a>]]></item>
+        <item><![CDATA[<b>Abonnement - sim-only</b>]]></item>
+        <item>Wanneer je een abonnement neemt hoef je niet elke keer wanneer je tegoed op is, opnieuw op te waarderen. Bij een abonnement betaal je een vast bedrag per maand en in ruil daarvoor krijg je een bepaald tegoed aan belminuten, smsjes en internet MB\'s. Wanneer je meer gebruikt dan je bundel moet je bijbetalen. De kosten hiervoor kunnen hoger zijn dan wanneer je binnen je bundel nog zit.</item>
+        <item>Bij een sim-only abonnement krijg je enkel een simkaart. Deze stop je in je huidige telefoon en daarna kun je van de diensten gebruik maken.</item>
+        <item>Op onderstaande websites kun je aanbieders vergelijken:</item>
+        <item>• <![CDATA[<a href="https://www.bellen.com/vergelijken/sim-only">https://www.bellen.com/vergelijken/sim-only</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.simonly.nl/vergelijken">https://www.simonly.nl/vergelijken</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.vergelijksimonly.nl/">https://www.vergelijksimonly.nl/</a>]]></item>
+        <item><![CDATA[<b>Abonnement - met toestel</b>]]></item>
+        <item>Er zijn ook abonnementen waar je een toestel bij ontvangt. Deze worden vaak als \'gratis\' erbij gezet, maar de aanschafprijs hiervoor zit dan verwerkt in het maandbedrag. Je betaalt dus elke maand een gedeelte van het toestel. Wanneer je hiervoor kiest, kan het zijn dat je een aantal vragen moet beantwoorden om te laten zien dat je begrijpt dat dit een vorm van een lening is. Het betalen van het abonnement werkt meestal met een automatische incasso op je rekening. Hierdoor hoef je niet elke maand eraan te denken je abonnement te betalen. Denk er wel aan dat abonnementen stilzwijgend verlengd worden na de afgesproken contractperiode. Weet wel dat na deze periode het contract maandelijks opzegbaar is.</item>
+        <item>Op onderstaande websites kun je aanbieders vergelijken:</item>
+        <item>• <![CDATA[<a href="https://www.prijsvergelijken.nl/telefoon-abonnement/">https://www.prijsvergelijken.nl/telefoon-abonnement/</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.mobiel.nl/abonnement">https://www.mobiel.nl/abonnement</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.goedkoopste-telefoonabonnement.nl/">https://www.goedkoopste-telefoonabonnement.nl/</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.bellen.com/">https://www.bellen.com/</a>]]></item>
+        <item>• <![CDATA[<a href="https://www.telefoonabonnement.nl/">https://www.telefoonabonnement.nl/</a>]]></item>
+        <item>Voor meer informatie over dit onderwerp, zie: <![CDATA[<a href="https://www.justlanded.com/nederlands/Nederland/Nederland-Gids/Telefoon-Internet/Belpakketten">https://www.justlanded.com/nederlands/Nederland/Nederland-Gids/Telefoon-Internet/Belpakketten</a>]]></item>
+    </string-array>
     <!-- file types -->
     <string name="filetype_1">ID bewijs</string>
     <string name="filetype_2">BSN brief</string>
@@ -126,4 +179,5 @@
     <string name="filetype_5">Huurovereenkomst</string>
     <string name="filetype_6">Bankafschrift</string>
     <string name="filetype_7">Pasfoto</string>
+    <string name="filetype_8">RZA Zorgpas</string>
 </resources>
